@@ -7,6 +7,8 @@ import { getAllPosts } from "@/lib/blog";
 import { getMcpItems, getSkillItems } from "@/lib/data";
 import { siteConfig } from "@/lib/constants";
 
+export const revalidate = 0;
+
 export default async function HomePage() {
   const [posts, mcpItems, skillItems] = await Promise.all([
     getAllPosts(),

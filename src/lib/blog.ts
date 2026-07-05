@@ -5,6 +5,11 @@ import readingTime from "reading-time";
 import type { BlogMeta, BlogPost } from "@/types";
 import { BLOG_DIR } from "./constants";
 import { serializeBlogPost, type BlogInput } from "./blog-admin";
+import {
+  shouldReadFromGitHub,
+  getAllPostsFromGitHub,
+  getPostBySlugFromGitHub,
+} from "./blog-github";
 
 function blogDir(): string {
   return path.join(process.cwd(), BLOG_DIR);
@@ -40,6 +45,14 @@ function parsePost(filename: string, raw: string): BlogPost {
 }
 
 export async function getAllPosts(): Promise<BlogMeta[]> {
+  if (shouldReadFromGitHub()) {
+    const posts = await getAllPostsFromGitHub();
+    return posts.map(({ content: _c, ...meta }) => {
+      void _c;
+      return meta;
+    });
+  }
+
   const files = await getMdxFiles();
   const posts = await Promise.all(
     files.map(async (file) => {
@@ -56,6 +69,10 @@ export async function getAllPosts(): Promise<BlogMeta[]> {
 }
 
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
+  if (shouldReadFromGitHub()) {
+    return getPostBySlugFromGitHub(slug);
+  }
+
   for (const ext of [".mdx", ".md"]) {
     const filePath = path.join(blogDir(), `${slug}${ext}`);
     try {

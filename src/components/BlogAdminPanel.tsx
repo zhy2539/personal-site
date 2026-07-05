@@ -3,6 +3,8 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useState } from "react";
+import type { PublishResult } from "@/lib/publish-status";
+import { PublishStatusBanner } from "@/components/PublishStatusBanner";
 import { contentForEditor } from "@/lib/blog-admin";
 import type { BlogMeta, BlogPost } from "@/types";
 
@@ -47,6 +49,7 @@ export function BlogAdminPanel() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [editorKey, setEditorKey] = useState(0);
+  const [publishResult, setPublishResult] = useState<PublishResult | null>(null);
 
   const loadPosts = useCallback(async () => {
     const res = await fetch("/api/blog");
@@ -90,6 +93,7 @@ export function BlogAdminPanel() {
     }
 
     setLoading(true);
+    setPublishResult(null);
 
     const payload = {
       slug: form.slug || undefined,
@@ -114,12 +118,17 @@ export function BlogAdminPanel() {
 
     setLoading(false);
 
+    const data = await res.json();
+
     if (!res.ok) {
-      const data = await res.json();
+      if (data.publish) {
+        setPublishResult(data.publish as PublishResult);
+      }
       setError(data.error ?? "保存失败");
       return;
     }
 
+    setPublishResult(data.publish as PublishResult);
     setForm(emptyForm);
     setEditingSlug(null);
     setEditorKey((k) => k + 1);
@@ -128,16 +137,22 @@ export function BlogAdminPanel() {
 
   async function handleDelete(slug: string) {
     if (!confirm(`确定删除文章「${slug}」？`)) return;
+    setPublishResult(null);
     const res = await fetch(`/api/blog?slug=${encodeURIComponent(slug)}`, {
       method: "DELETE",
     });
+    const data = await res.json();
     if (res.ok) {
+      if (data.publish) setPublishResult(data.publish as PublishResult);
       if (editingSlug === slug) {
         setEditingSlug(null);
         setForm(emptyForm);
         setEditorKey((k) => k + 1);
       }
       await loadPosts();
+    } else {
+      setError(data.error ?? "删除失败");
+      if (data.publish) setPublishResult(data.publish as PublishResult);
     }
   }
 
@@ -146,10 +161,15 @@ export function BlogAdminPanel() {
     setForm({ ...emptyForm, date: new Date().toISOString().slice(0, 10) });
     setEditorKey((k) => k + 1);
     setError("");
+    setPublishResult(null);
   }
 
   return (
     <div className="space-y-8">
+      <PublishStatusBanner
+        result={publishResult}
+        onClose={() => setPublishResult(null)}
+      />
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="text-sm text-zinc-500">
           富文本编辑器，手机/电脑均可使用；保存后自动同步 GitHub。
