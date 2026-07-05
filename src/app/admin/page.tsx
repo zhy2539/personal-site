@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { AdminPanel } from "@/components/AdminPanel";
+import { AdminShell } from "@/components/AdminShell";
 import { isAdminEnabled } from "@/lib/auth";
 
 export const metadata = {
@@ -28,7 +28,7 @@ export default async function AdminPage() {
         <h1 className="mb-8 text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
           管理后台
         </h1>
-        <AdminPanel />
+        <AdminShell />
       </main>
       <Footer />
     </>

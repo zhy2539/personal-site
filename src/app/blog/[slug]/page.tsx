@@ -5,6 +5,8 @@ import { Footer } from "@/components/Footer";
 import { MarkdownContent } from "@/components/MarkdownContent";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
 
+export const revalidate = 0;
+
 interface BlogDetailProps {
   params: Promise<{ slug: string }>;
 }

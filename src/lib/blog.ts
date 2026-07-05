@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import readingTime from "reading-time";
 import type { BlogMeta, BlogPost } from "@/types";
 import { BLOG_DIR } from "./constants";
+import { serializeBlogPost, type BlogInput } from "./blog-admin";
 
 function blogDir(): string {
   return path.join(process.cwd(), BLOG_DIR);
@@ -78,3 +79,30 @@ export async function getAllTags(): Promise<string[]> {
   }
   return Array.from(tags).sort((a, b) => a.localeCompare(b, "zh-CN"));
 }
+
+function postFilePath(slug: string): string {
+  return path.join(blogDir(), `${slug}.mdx`);
+}
+
+export async function saveBlogPost(input: BlogInput): Promise<BlogPost> {
+  const raw = serializeBlogPost(input);
+  await fs.mkdir(blogDir(), { recursive: true });
+  await fs.writeFile(postFilePath(input.slug), raw, "utf-8");
+  const post = await getPostBySlug(input.slug);
+  if (!post) throw new Error("保存后读取失败");
+  return post;
+}
+
+export async function deleteBlogPost(slug: string): Promise<void> {
+  for (const ext of [".mdx", ".md"]) {
+    const filePath = path.join(blogDir(), `${slug}${ext}`);
+    try {
+      await fs.unlink(filePath);
+      return;
+    } catch {
+      continue;
+    }
+  }
+  throw new Error("文章未找到");
+}
+

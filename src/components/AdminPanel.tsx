@@ -6,6 +6,11 @@ import type { ResourceItem, SkillItem } from "@/types";
 
 type ResourceType = "mcp" | "skills";
 
+interface AdminPanelProps {
+  embedded?: boolean;
+  defaultTab?: ResourceType;
+}
+
 interface FormData {
   id: string;
   name: string;
@@ -32,12 +37,12 @@ const emptyForm: FormData = {
   tips: "",
 };
 
-export function AdminPanel() {
-  const [authenticated, setAuthenticated] = useState(false);
-  const [checking, setChecking] = useState(true);
+export function AdminPanel({ embedded = false, defaultTab = "mcp" }: AdminPanelProps) {
+  const [authenticated, setAuthenticated] = useState(embedded);
+  const [checking, setChecking] = useState(!embedded);
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const [activeTab, setActiveTab] = useState<ResourceType>("mcp");
+  const [activeTab, setActiveTab] = useState<ResourceType>(defaultTab);
   const [items, setItems] = useState<ResourceItem[]>([]);
   const [form, setForm] = useState<FormData>(emptyForm);
   const [editingId, setEditingId] = useState<string | null>(null);
@@ -53,6 +58,10 @@ export function AdminPanel() {
   }, [apiBase]);
 
   useEffect(() => {
+    if (embedded) {
+      loadItems();
+      return;
+    }
     fetch("/api/admin/auth")
       .then((r) => r.json())
       .then((data: { authenticated: boolean }) => {
@@ -60,7 +69,7 @@ export function AdminPanel() {
         if (data.authenticated) loadItems();
       })
       .finally(() => setChecking(false));
-  }, [loadItems]);
+  }, [loadItems, embedded]);
 
   async function handleLogin(e: React.FormEvent) {
     e.preventDefault();
@@ -150,11 +159,11 @@ export function AdminPanel() {
     });
   }
 
-  if (checking) {
+  if (!embedded && checking) {
     return <p className="text-zinc-500">验证登录状态…</p>;
   }
 
-  if (!authenticated) {
+  if (!embedded && !authenticated) {
     return (
       <form onSubmit={handleLogin} className="mx-auto max-w-sm space-y-4">
         <h2 className="text-xl font-semibold">Admin 登录</h2>
@@ -180,17 +189,20 @@ export function AdminPanel() {
 
   return (
     <div className="space-y-8">
-      <div className="flex items-center justify-between">
-        <h2 className="text-xl font-semibold">资源管理</h2>
-        <button
-          type="button"
-          onClick={handleLogout}
-          className="min-h-[44px] rounded-lg border border-zinc-300 px-4 text-sm font-medium hover:bg-zinc-50 dark:border-zinc-700 dark:hover:bg-zinc-800"
-        >
-          退出登录
-        </button>
-      </div>
+      {!embedded && (
+        <div className="flex items-center justify-between">
+          <h2 className="text-xl font-semibold">资源管理</h2>
+          <button
+            type="button"
+            onClick={handleLogout}
+            className="min-h-[44px] rounded-lg border border-zinc-300 px-4 text-sm font-medium hover:bg-zinc-50 dark:border-zinc-700 dark:hover:bg-zinc-800"
+          >
+            退出登录
+          </button>
+        </div>
+      )}
 
+      {!embedded && (
       <div className="flex gap-2" role="tablist">
         {(["mcp", "skills"] as const).map((tab) => (
           <button
@@ -213,6 +225,7 @@ export function AdminPanel() {
           </button>
         ))}
       </div>
+      )}
 
       <form onSubmit={handleSubmit} className="space-y-4 rounded-xl border border-zinc-200 p-5 dark:border-zinc-800">
         <h3 className="font-medium">{editingId ? "编辑条目" : "新增条目"}</h3>

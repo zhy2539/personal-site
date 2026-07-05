@@ -8,6 +8,8 @@ interface BlogPageProps {
   searchParams: Promise<{ tag?: string }>;
 }
 
+export const revalidate = 0;
+
 export const metadata = {
   title: "博客",
   description: "技术博客，分享 MCP、Skill 与全栈开发实践。",
