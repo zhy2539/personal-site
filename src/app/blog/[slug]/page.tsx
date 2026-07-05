@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { MarkdownContent } from "@/components/MarkdownContent";
+import { BlogContent } from "@/components/BlogContent";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
 
 export const revalidate = 0;
@@ -69,7 +69,7 @@ export default async function BlogDetailPage({ params }: BlogDetailProps) {
               <span className="ml-auto text-sm text-zinc-400">{post.readingTime}</span>
             </div>
           </header>
-          <MarkdownContent content={post.content} />
+          <BlogContent content={post.content} format={post.format} />
         </article>
       </main>
       <Footer />

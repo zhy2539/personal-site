@@ -1,8 +1,21 @@
 "use client";
 
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { useCallback, useEffect, useState } from "react";
+import { contentForEditor } from "@/lib/blog-admin";
 import type { BlogMeta, BlogPost } from "@/types";
+
+const RichTextEditor = dynamic(
+  () =>
+    import("@/components/RichTextEditor").then((m) => m.RichTextEditor),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-72 animate-pulse rounded-lg border border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900" />
+    ),
+  }
+);
 
 interface BlogForm {
   slug: string;
@@ -22,12 +35,18 @@ const emptyForm: BlogForm = {
   content: "",
 };
 
+function isEmptyContent(html: string): boolean {
+  const text = html.replace(/<[^>]+>/g, "").trim();
+  return !text;
+}
+
 export function BlogAdminPanel() {
   const [posts, setPosts] = useState<BlogMeta[]>([]);
   const [form, setForm] = useState<BlogForm>(emptyForm);
   const [editingSlug, setEditingSlug] = useState<string | null>(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [editorKey, setEditorKey] = useState(0);
 
   const loadPosts = useCallback(async () => {
     const res = await fetch("/api/blog");
@@ -48,6 +67,7 @@ export function BlogAdminPanel() {
       return;
     }
     const post: BlogPost = await res.json();
+    const html = await contentForEditor(post.content, post.format);
     setEditingSlug(slug);
     setForm({
       slug: post.slug,
@@ -55,13 +75,20 @@ export function BlogAdminPanel() {
       description: post.description,
       date: post.date,
       tags: post.tags.join(", "),
-      content: post.content,
+      content: html,
     });
+    setEditorKey((k) => k + 1);
   }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError("");
+
+    if (isEmptyContent(form.content)) {
+      setError("正文不能为空");
+      return;
+    }
+
     setLoading(true);
 
     const payload = {
@@ -74,6 +101,7 @@ export function BlogAdminPanel() {
         .map((t) => t.trim())
         .filter(Boolean),
       content: form.content,
+      format: "rich" as const,
     };
 
     const res = await fetch("/api/blog", {
@@ -94,6 +122,7 @@ export function BlogAdminPanel() {
 
     setForm(emptyForm);
     setEditingSlug(null);
+    setEditorKey((k) => k + 1);
     await loadPosts();
   }
 
@@ -106,6 +135,7 @@ export function BlogAdminPanel() {
       if (editingSlug === slug) {
         setEditingSlug(null);
         setForm(emptyForm);
+        setEditorKey((k) => k + 1);
       }
       await loadPosts();
     }
@@ -114,6 +144,7 @@ export function BlogAdminPanel() {
   function startNew() {
     setEditingSlug(null);
     setForm({ ...emptyForm, date: new Date().toISOString().slice(0, 10) });
+    setEditorKey((k) => k + 1);
     setError("");
   }
 
@@ -121,7 +152,7 @@ export function BlogAdminPanel() {
     <div className="space-y-8">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="text-sm text-zinc-500">
-          支持 Markdown 正文；生产环境保存后会同步至 GitHub 仓库。
+          富文本编辑器，手机/电脑均可使用；保存后自动同步 GitHub。
         </p>
         <button
           type="button"
@@ -134,7 +165,7 @@ export function BlogAdminPanel() {
 
       <form
         onSubmit={handleSubmit}
-        className="space-y-4 rounded-xl border border-zinc-200 p-5 dark:border-zinc-800"
+        className="space-y-4 rounded-xl border border-zinc-200 p-4 sm:p-5 dark:border-zinc-800"
       >
         <h3 className="font-medium">
           {editingSlug ? `编辑：${editingSlug}` : "新建文章"}
@@ -195,17 +226,17 @@ export function BlogAdminPanel() {
           />
         </label>
 
-        <label className="block">
-          <span className="text-sm font-medium">正文（Markdown）</span>
-          <textarea
-            required
-            value={form.content}
-            onChange={(e) => setForm({ ...form, content: e.target.value })}
-            rows={16}
-            placeholder="## 标题&#10;&#10;正文内容…"
-            className="mt-1 w-full rounded-lg border border-zinc-300 px-3 py-2 font-mono text-sm dark:border-zinc-700 dark:bg-zinc-900"
-          />
-        </label>
+        <div>
+          <span className="text-sm font-medium">正文 *</span>
+          <div className="mt-1">
+            <RichTextEditor
+              key={editorKey}
+              value={form.content}
+              onChange={(html) => setForm({ ...form, content: html })}
+              placeholder="开始写作…"
+            />
+          </div>
+        </div>
 
         {error && (
           <p className="text-sm text-red-600" role="alert">

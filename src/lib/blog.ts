@@ -23,7 +23,10 @@ async function getMdxFiles(): Promise<string[]> {
 function parsePost(filename: string, raw: string): BlogPost {
   const { data, content } = matter(raw);
   const slug = filename.replace(/\.(mdx|md)$/, "");
-  const stats = readingTime(content);
+  const format = data.format === "rich" ? "rich" : "markdown";
+  const plainText =
+    format === "rich" ? content.replace(/<[^>]+>/g, " ") : content;
+  const stats = readingTime(plainText);
   return {
     slug,
     title: String(data.title ?? slug),
@@ -32,6 +35,7 @@ function parsePost(filename: string, raw: string): BlogPost {
     tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
     readingTime: stats.text,
     content,
+    format,
   };
 }
 

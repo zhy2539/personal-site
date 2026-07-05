@@ -23,6 +23,7 @@ export interface BlogPost {
   tags: string[];
   readingTime: string;
   content: string;
+  format: "markdown" | "rich";
 }
 
 export interface BlogMeta {
@@ -32,6 +33,7 @@ export interface BlogMeta {
   date: string;
   tags: string[];
   readingTime: string;
+  format: "markdown" | "rich";
 }
 
 export interface SiteConfig {

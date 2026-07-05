@@ -76,6 +76,7 @@ export async function POST(request: NextRequest) {
     date: body.date ?? new Date().toISOString().slice(0, 10),
     tags: body.tags ?? [],
     content: body.content ?? "",
+    format: body.format === "markdown" ? "markdown" : "rich",
   };
 
   const post = await persistBlog(input, `blog: add ${slug}`);
@@ -107,6 +108,7 @@ export async function PUT(request: NextRequest) {
     date: body.date ?? existing.date,
     tags: body.tags ?? [],
     content: body.content ?? "",
+    format: body.format === "markdown" ? "markdown" : "rich",
   };
 
   const post = await persistBlog(input, `blog: update ${body.slug}`);
