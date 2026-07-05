@@ -1,0 +1,56 @@
+name: Discover MCP & Skills
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Discover MCP candidates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run discover:mcp
+
+      - name: Discover Skill candidates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run discover:skills
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: discover new MCP & Skill candidates"
+          title: "chore: 发现新的 MCP/Skill 候选资源"
+          body: |
+            ## 自动发现结果
+
+            此 PR 由每周 cron 工作流生成，包含 `data/*-pending.json` 中的新候选资源。
+
+            ### 审核清单
+            - [ ] 检查候选资源质量与相关性
+            - [ ] 将有价值的条目合并到 `mcp.json` / `skills.json`
+            - [ ] 清理 pending 文件中已处理的条目
+
+            **请勿自动合并，需人工审核。**
+          branch: discover/resources
+          add-paths: |
+            data/mcp-pending.json
+            data/skills-pending.json

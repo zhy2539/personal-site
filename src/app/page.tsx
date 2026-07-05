@@ -1,103 +1,111 @@
-import Image from "next/image";
+import Link from "next/link";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { BlogCard } from "@/components/BlogCard";
+import { ResourceCard } from "@/components/ResourceCard";
+import { getAllPosts } from "@/lib/blog";
+import { getMcpItems, getSkillItems } from "@/lib/data";
+import { siteConfig } from "@/lib/constants";
 
-export default function Home() {
+export default async function HomePage() {
+  const [posts, mcpItems, skillItems] = await Promise.all([
+    getAllPosts(),
+    getMcpItems(),
+    getSkillItems(),
+  ]);
+
+  const recentPosts = posts.slice(0, 3);
+  const featuredMcp = mcpItems.slice(0, 3);
+  const featuredSkills = skillItems.slice(0, 3);
+
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <>
+      <Header />
+      <main id="main-content" className="mx-auto max-w-5xl flex-1 px-4 py-10 sm:px-6">
+        <section aria-labelledby="hero-heading" className="mb-14">
+          <h1
+            id="hero-heading"
+            className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl dark:text-zinc-50"
+          >
+            {siteConfig.title}
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {siteConfig.bio}
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link
+              href="/blog"
+              className="inline-flex min-h-[44px] items-center rounded-lg bg-blue-600 px-5 text-sm font-medium text-white transition-colors hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+            >
+              阅读博客
+            </Link>
+            <Link
+              href="/mcp"
+              className="inline-flex min-h-[44px] items-center rounded-lg border border-zinc-300 px-5 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
+            >
+              浏览 MCP
+            </Link>
+          </div>
+        </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+        <section aria-labelledby="recent-blog" className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 id="recent-blog" className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
+              最新博客
+            </h2>
+            <Link
+              href="/blog"
+              className="min-h-[44px] inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700 dark:text-blue-400"
+            >
+              查看全部 →
+            </Link>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {recentPosts.map((post) => (
+              <BlogCard key={post.slug} post={post} />
+            ))}
+          </div>
+        </section>
+
+        <section aria-labelledby="featured-mcp" className="mb-14">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 id="featured-mcp" className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
+              精选 MCP
+            </h2>
+            <Link
+              href="/mcp"
+              className="min-h-[44px] inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700 dark:text-blue-400"
+            >
+              查看全部 →
+            </Link>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredMcp.map((item) => (
+              <ResourceCard key={item.id} item={item} type="mcp" />
+            ))}
+          </div>
+        </section>
+
+        <section aria-labelledby="featured-skills">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 id="featured-skills" className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
+              精选 Skill
+            </h2>
+            <Link
+              href="/skills"
+              className="min-h-[44px] inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700 dark:text-blue-400"
+            >
+              查看全部 →
+            </Link>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredSkills.map((item) => (
+              <ResourceCard key={item.id} item={item} type="skill" />
+            ))}
+          </div>
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <Footer />
+    </>
   );
 }

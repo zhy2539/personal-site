@@ -1,0 +1,162 @@
+[
+  {
+    "id": "firecrawl-scrape",
+    "name": "Firecrawl Scrape",
+    "description": "从任意 URL 提取干净 Markdown，支持 JS 渲染页面，是 Web 内容获取的标准 Skill。",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "tags": ["Web", "抓取", "Markdown"],
+    "updatedAt": "2026-03-05",
+    "intro": "Firecrawl Scrape 是 Firecrawl 工具链中的核心 Skill，让 Agent 能够从任意网页 URL 提取结构化 Markdown 内容。它支持 JavaScript 渲染的单页应用（SPA），自动处理动态加载内容，是构建 Web 研究、内容分析、竞品监控等 Agent 工作流的基础能力。",
+    "workflow": [
+      "在 Cursor 中确保已安装并配置 firecrawl-cli（运行 firecrawl login 完成认证）",
+      "在对话中描述需要抓取的 URL 和目标（如「抓取该页面正文为 Markdown」）",
+      "Agent 调用 firecrawl scrape 技能，传入 URL 与可选参数（格式、等待时间等）",
+      "获取返回的 Markdown 内容，用于摘要、分析或写入本地文件",
+      "如需多页抓取，可链式调用 firecrawl crawl 或 map 技能扩展范围"
+    ],
+    "useCases": [
+      "抓取技术文档、博客文章用于 Agent 上下文",
+      "竞品页面内容分析与对比",
+      "将网页内容转为 Markdown 存档",
+      "为 RAG 知识库采集公开网页数据"
+    ],
+    "prerequisites": [
+      "已安装 firecrawl-cli 并完成 firecrawl login",
+      "目标 URL 可公开访问（无需登录）",
+      "网络可访问 firecrawl.dev API"
+    ],
+    "tips": [
+      "复杂 SPA 页面可指定 waitFor 参数等待渲染完成",
+      "批量抓取时注意 API 配额与速率限制",
+      "敏感页面请确认合规后再抓取"
+    ]
+  },
+  {
+    "id": "create-skill",
+    "name": "Create Skill",
+    "description": "Cursor 官方 Skill 创建指南，帮助用户编写结构化的 Agent Skill 文件。",
+    "url": "https://cursor.com/docs/context/skills",
+    "tags": ["Cursor", "官方", "创作"],
+    "updatedAt": "2026-02-20",
+    "intro": "Create Skill 是 Cursor 官方提供的 Skill 创作指南，指导用户编写符合规范的 SKILL.md 文件。通过结构化描述触发条件、工作流和最佳实践，让 Agent 在特定场景下自动加载并遵循你的自定义指令，是扩展 Cursor Agent 能力的首选方式。",
+    "workflow": [
+      "运行 create-skill 或在对话中说「帮我创建一个 Skill」",
+      "明确 Skill 的用途、触发场景和目标用户",
+      "按指南填写 SKILL.md：name、description、步骤与示例",
+      "将 Skill 保存到 ~/.cursor/skills/ 或项目的 .cursor/skills/ 目录",
+      "重启或刷新 Cursor，在相关对话中验证 Agent 是否正确加载 Skill"
+    ],
+    "useCases": [
+      "为团队定制统一的 Code Review 规范 Skill",
+      "封装重复性工作流（部署、发版、写 PR 描述）",
+      "将领域知识（业务规则、API 约定）注入 Agent",
+      "创建可复用的自动化脚本调用指南"
+    ],
+    "prerequisites": [
+      "Cursor IDE 已更新至支持 Skills 的版本",
+      "了解 Markdown 基本语法",
+      "对目标工作流有清晰描述"
+    ],
+    "tips": [
+      "description 字段应包含触发关键词，便于 Agent 自动匹配",
+      "步骤尽量具体，避免模糊指令",
+      "单个 Skill 聚焦一个场景，复杂流程可拆分为多个 Skill"
+    ]
+  },
+  {
+    "id": "workctl-operator",
+    "name": "Workctl Operator",
+    "description": "阿里巴巴国际站商家经营工具 Skill，通过 workctl CLI 调用店铺数据、广告、发品等能力。",
+    "url": "https://work.alibaba.com",
+    "tags": ["电商", "阿里", "经营"],
+    "updatedAt": "2026-02-10",
+    "intro": "Workctl Operator Skill 封装了阿里巴巴国际站商家经营平台的 workctl CLI 操作指南。通过 workctl schema 发现动态产品与命令，Agent 可结构化调用店铺诊断、广告分析、发品优化、选品研究等能力，帮助国际站卖家用自然语言驱动经营工具。",
+    "workflow": [
+      "安装 workctl CLI 并完成 workctl login 商家账号认证",
+      "在 Cursor 中加载 workctl-operator Skill",
+      "用自然语言描述经营需求（如「分析店铺近 7 天曝光趋势」）",
+      "Agent 通过 workctl schema 发现可用命令，构造参数并执行",
+      "解读返回的结构化数据，给出可执行的优化建议"
+    ],
+    "useCases": [
+      "店铺数据诊断与流量分析",
+      "广告计划效果评估与优化建议",
+      "商品标题/属性/图片优化",
+      "选品研究与竞品对比"
+    ],
+    "prerequisites": [
+      "阿里巴巴国际站卖家账号",
+      "已安装并认证 workctl CLI",
+      "商家后台相关权限已开通"
+    ],
+    "tips": [
+      "首次使用先运行 workctl schema 熟悉可用命令",
+      "涉及写操作时 Agent 会请求确认，请勿跳过审核",
+      "敏感经营数据请勿分享至公开仓库"
+    ]
+  },
+  {
+    "id": "hyperframes",
+    "name": "HyperFrames",
+    "description": "从 HTML 渲染视频的 Skill 套件，涵盖解说、动效、产品发布等多种视频工作流。",
+    "url": "https://github.com/hyperframes/hyperframes",
+    "tags": ["视频", "HTML", "渲染"],
+    "updatedAt": "2026-01-25",
+    "intro": "HyperFrames 是一套从 HTML 渲染视频的 Agent Skill 套件。不同于传统视频编辑工具，HyperFrames 用 HTML/CSS/动画描述画面，由渲染引擎导出 MP4。涵盖 Faceless 解说、Motion Graphics、产品发布、Talking Head 包装等多种工作流，适合快速生成社媒短视频与产品 Demo。",
+    "workflow": [
+      "确认已安装 Node.js 18+，在项目目录运行 npx hyperframes init",
+      "根据视频类型选择对应 Skill（如 faceless-explainer、product-launch-video）",
+      "提供脚本、品牌色、参考素材或产品 URL 作为输入",
+      "Agent 生成 index.html composition 并运行 hyperframes preview 预览",
+      "确认无误后执行 hyperframes render 导出最终视频"
+    ],
+    "useCases": [
+      "无脸解说视频（教程、资讯、知识分享）",
+      "产品发布与功能演示短视频",
+      "数据动效与品牌宣传片",
+      "Talking Head 视频图形包装"
+    ],
+    "prerequisites": [
+      "Node.js 18 或更高版本",
+      "macOS / Linux 渲染环境（或 Lambda 云端渲染）",
+      "可选：TTS API Key（HeyGen / ElevenLabs）用于配音"
+    ],
+    "tips": [
+      "先用 hyperframes preview 本地预览，确认时序与动效",
+      "短视频建议 30–90 秒，信息密度更高",
+      "品牌色与字体在 frame.md 中统一配置"
+    ]
+  },
+  {
+    "id": "review-bugbot",
+    "name": "Review Bugbot",
+    "description": "使用 Bugbot 子代理对本地代码变更进行自动化 Code Review。",
+    "url": "https://cursor.com/docs",
+    "tags": ["Review", "QA", "Cursor"],
+    "updatedAt": "2026-01-15",
+    "intro": "Review Bugbot Skill 指导 Agent 启动 Bugbot 子代理，对本地未提交的代码变更或分支 diff 进行自动化 Code Review。它从正确性、边界条件、安全性、可维护性等维度审查代码，帮助在提交 PR 前发现问题，适合个人开发者和小团队的质量门禁。",
+    "workflow": [
+      "在 Cursor 中完成代码修改（未提交或已分分支）",
+      "在对话中说「用 Bugbot review 我的改动」或触发 review-bugbot Skill",
+      "Agent 启动 Bugbot 子代理，分析 git diff 或指定文件变更",
+      "获取分类审查报告：bug 风险、改进建议、安全提示",
+      "根据报告修复问题后，可再次运行 review 验证"
+    ],
+    "useCases": [
+      "提交 PR 前的自检",
+      "重构大型模块时的风险扫描",
+      "安全敏感代码（鉴权、支付）的专项检查",
+      "新人代码的 mentor 式审查"
+    ],
+    "prerequisites": [
+      "项目已初始化 git 仓库",
+      "Cursor 支持 Task / Bugbot 子代理功能",
+      "有本地可审查的代码变更"
+    ],
+    "tips": [
+      "审查范围默认是 branch changes，可指定 uncommitted changes",
+      "大型 diff 建议拆分为小 PR 分批审查",
+      "Bugbot 报告仅供参考，关键逻辑仍需人工确认"
+    ]
+  }
+]

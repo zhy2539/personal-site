@@ -1,0 +1,42 @@
+[
+  {
+    "id": "filesystem-mcp",
+    "name": "Filesystem MCP",
+    "description": "Anthropic 官方文件系统 MCP 服务器，支持读写本地文件与目录操作，是 Agent 接入本地文件的首选方案。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+    "tags": ["官方", "文件", "本地"],
+    "updatedAt": "2026-03-01"
+  },
+  {
+    "id": "github-mcp",
+    "name": "GitHub MCP",
+    "description": "通过 MCP 协议管理 GitHub 仓库、Issue、PR 与代码搜索，适合开发工作流自动化。",
+    "url": "https://github.com/github/github-mcp-server",
+    "tags": ["官方", "GitHub", "开发"],
+    "updatedAt": "2026-02-15"
+  },
+  {
+    "id": "brave-search-mcp",
+    "name": "Brave Search MCP",
+    "description": "基于 Brave Search API 的网页搜索 MCP，为 Agent 提供实时网络检索能力。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search",
+    "tags": ["搜索", "网络", "API"],
+    "updatedAt": "2026-01-20"
+  },
+  {
+    "id": "postgres-mcp",
+    "name": "PostgreSQL MCP",
+    "description": "只读 PostgreSQL 数据库查询 MCP，支持 schema 探索与安全 SQL 执行。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
+    "tags": ["数据库", "SQL", "只读"],
+    "updatedAt": "2026-01-10"
+  },
+  {
+    "id": "puppeteer-mcp",
+    "name": "Puppeteer MCP",
+    "description": "浏览器自动化 MCP，支持页面截图、表单交互与 DOM 操作，适合 Web 抓取场景。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer",
+    "tags": ["浏览器", "自动化", "抓取"],
+    "updatedAt": "2025-12-28"
+  }
+]

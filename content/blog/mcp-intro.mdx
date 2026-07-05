@@ -1,0 +1,33 @@
+---
+title: MCP 协议入门与实践
+description: 从概念到接入，理解 Model Context Protocol 如何让 AI Agent 安全调用外部工具。
+date: 2026-06-15
+tags:
+  - MCP
+  - AI
+  - 教程
+---
+
+## 什么是 MCP
+
+Model Context Protocol（MCP）是 Anthropic 提出的开放协议，让 AI 模型通过标准化接口调用外部工具和数据源。
+
+## 核心概念
+
+- **Server**：提供工具与资源的 MCP 服务
+- **Client**：发起请求的 AI 应用（如 Cursor、Claude Desktop）
+- **Transport**：stdio / SSE / HTTP 等通信方式
+
+## 快速开始
+
+1. 选择官方 [MCP Servers](https://github.com/modelcontextprotocol/servers) 中的实现
+2. 在 Cursor 设置中配置 MCP 服务器
+3. 重启 IDE，Agent 即可调用对应工具
+
+## 最佳实践
+
+- 优先使用只读权限的数据库 MCP
+- 为敏感操作设置人工确认
+- 定期更新 MCP 版本以获取安全补丁
+
+更多资源请查看站内的 [MCP 目录](/mcp)。
