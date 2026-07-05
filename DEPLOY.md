@@ -19,7 +19,7 @@ git push origin main
 npx vercel deploy --prod
 ```
 
-**线上地址**：https://personal-site-blush-ten.vercel.app
+**线上地址**：https://zhyhub.xyz（备用：https://personal-site-blush-ten.vercel.app）
 
 ---
 
@@ -27,7 +27,7 @@ npx vercel deploy --prod
 
 | 变量 | 必填 | 说明 |
 |------|------|------|
-| `NEXT_PUBLIC_SITE_URL` | ✅ | 站点 URL，如 `https://personal-site-blush-ten.vercel.app` |
+| `NEXT_PUBLIC_SITE_URL` | ✅ | 站点 URL，如 `https://zhyhub.xyz` |
 | `ADMIN_PASSWORD` | ✅ | 后台登录密码 |
 | `GITHUB_TOKEN` | ✅ 生产 | Admin 保存博客/MCP 时同步到 GitHub |
 | `GITHUB_REPO` | 可选 | 默认 `zhy2539/personal-site` |
@@ -48,7 +48,10 @@ npx vercel deploy --prod
 ### 进一步加速建议
 
 1. **连接 GitHub 自动部署**：Vercel → Project → Git → Connect Repository
-2. **自定义域名**：Vercel → Domains → 添加域名并更新 DNS
+2. **自定义域名**：已在 Vercel 绑定 `zhyhub.xyz` + `www.zhyhub.xyz`，在域名商 DNS 添加：
+   - `A` 记录：`@` → `76.76.21.21`
+   - `CNAME` 记录：`www` → `cname.vercel-dns.com`
+   - 或将 Nameserver 改为 Vercel（`ns1.vercel-dns.com` / `ns2.vercel-dns.com`）
 3. **图片**：使用 Next.js `<Image>` 组件，自动 WebP/AVIF
 4. **分析**：Vercel Analytics（免费层）监控 Core Web Vitals
 
@@ -66,7 +69,7 @@ npx vercel deploy --prod
 
 ## 后台写博客
 
-1. 打开 https://personal-site-blush-ten.vercel.app/admin
+1. 打开 https://zhyhub.xyz/admin
 2. 输入 `ADMIN_PASSWORD` 登录
 3. 点击 **博客** 标签 → **新建文章**
 4. 使用富文本编辑器写作，点击 **发布**
