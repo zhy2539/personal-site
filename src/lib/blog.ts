@@ -44,15 +44,22 @@ function parsePost(filename: string, raw: string): BlogPost {
   };
 }
 
-export async function getAllPosts(): Promise<BlogMeta[]> {
-  if (shouldReadFromGitHub()) {
-    const posts = await getAllPostsFromGitHub();
-    return posts.map(({ content: _c, ...meta }) => {
-      void _c;
-      return meta;
-    });
+async function getPostBySlugFromFilesystem(
+  slug: string
+): Promise<BlogPost | null> {
+  for (const ext of [".mdx", ".md"]) {
+    const filePath = path.join(blogDir(), `${slug}${ext}`);
+    try {
+      const raw = await fs.readFile(filePath, "utf-8");
+      return parsePost(`${slug}${ext}`, raw);
+    } catch {
+      continue;
+    }
   }
+  return null;
+}
 
+async function getAllPostsFromFilesystem(): Promise<BlogMeta[]> {
   const files = await getMdxFiles();
   const posts = await Promise.all(
     files.map(async (file) => {
@@ -68,21 +75,33 @@ export async function getAllPosts(): Promise<BlogMeta[]> {
   );
 }
 
-export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
+export async function getAllPosts(): Promise<BlogMeta[]> {
   if (shouldReadFromGitHub()) {
-    return getPostBySlugFromGitHub(slug);
-  }
-
-  for (const ext of [".mdx", ".md"]) {
-    const filePath = path.join(blogDir(), `${slug}${ext}`);
     try {
-      const raw = await fs.readFile(filePath, "utf-8");
-      return parsePost(`${slug}${ext}`, raw);
+      const posts = await getAllPostsFromGitHub();
+      return posts.map(({ content: _c, ...meta }) => {
+        void _c;
+        return meta;
+      });
     } catch {
-      continue;
+      return getAllPostsFromFilesystem();
     }
   }
-  return null;
+
+  return getAllPostsFromFilesystem();
+}
+
+export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
+  if (shouldReadFromGitHub()) {
+    try {
+      const post = await getPostBySlugFromGitHub(slug);
+      if (post) return post;
+    } catch {
+      // GitHub API 失败时回退到部署包内文件
+    }
+  }
+
+  return getPostBySlugFromFilesystem(slug);
 }
 
 export async function getPostsByTag(tag: string): Promise<BlogMeta[]> {

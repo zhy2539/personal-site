@@ -3,6 +3,7 @@ import path from "path";
 
 const nextConfig: NextConfig = {
   outputFileTracingRoot: path.join(__dirname),
+  serverExternalPackages: ["isomorphic-dompurify", "jsdom"],
   poweredByHeader: false,
   compress: true,
   images: {
