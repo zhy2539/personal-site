@@ -1,1 +1,734 @@
-[]
+[
+  {
+    "id": "leoluyi-skills",
+    "name": "skills",
+    "description": "My personal collection of portable SKILL.md agent skills and tooling for Claude Code, Cursor & Codex — currently focused on Traditional Chinese (Taiwan) writing, de-AI editing, and business docs.",
+    "url": "https://github.com/leoluyi/skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "claude-code",
+      "codex"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "bavanchun-vcskill",
+    "name": "vcskill",
+    "description": "Author agent skills once in canonical Claude format, install to any AI provider (Claude Code, Codex, Cursor, Antigravity, OpenCode)",
+    "url": "https://github.com/bavanchun/vcskill",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "agentpipe-pipebuilder",
+    "name": "pipebuilder",
+    "description": "Reuse Agent Skills across Cursor, Claude Code, Codex, and CodeBuddy. Build task-specific AI coding agent pipelines for one project, each with an independently selected capability set.",
+    "url": "https://github.com/agentpipe/pipebuilder",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-pipeline",
+      "agent-skills",
+      "ai-coding-agents"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "michielhdoteth-awesome-ai-agent-tools",
+    "name": "awesome-ai-agent-tools",
+    "description": "The most comprehensive open-source library of 600+ installable AI agent components: skills, MCP servers, workflows, subagents, hooks, plugins, prompts, and tools. Install via npx. Works with Claude Code, OpenCode, Codex, Cursor, Gemini CLI, Copilot, and 30+ agents.",
+    "url": "https://github.com/michielhdoteth/awesome-ai-agent-tools",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-orchestration",
+      "agent-workflows",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "saif-26281028-swiftdata-skillkit",
+    "name": "SwiftData-SkillKit",
+    "description": "Master SwiftData Code in Xcode 2026 – AI-Powered Models, Queries, Migrations & iCloud Sync",
+    "url": "https://github.com/saif-26281028/SwiftData-SkillKit",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent",
+      "ai",
+      "ai-coding"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "green-pt-honey-for-devs",
+    "name": "honey-for-devs",
+    "description": "Honey (I Shrunk the AI) by GreenPT: a cross-tool coding skill that cuts AI coding-agent token usage and LLM API costs — write less code, less prose, and denser agent-to-agent handoffs (−53%, lossless in benchmarks) with no loss of quality. Works with Claude Code, Cursor, GitHub Copilot, Codex, Gemini CLI, Windsurf, Cline & Kiro.",
+    "url": "https://github.com/Green-PT/honey-for-devs",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agents",
+      "ai",
+      "claude"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "libkim-agent-parity",
+    "name": "agent-parity",
+    "description": "One setup, four agents, identical behavior — cross-agent memory, skills, and instructions for Claude Code, Codex, Cursor, and Antigravity CLI",
+    "url": "https://github.com/libkim/agent-parity",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "neversight-learn-skills-dev",
+    "name": "learn-skills.dev",
+    "description": "Curated high-quality AI Agent Skills. Search, install, copy and share. Works with Claude Code, Cursor, OpenClaw, and other AI coding tools.",
+    "url": "https://github.com/NeverSight/learn-skills.dev",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "learn-skills",
+      "skills"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "immersive-commons-ic-skills",
+    "name": "ic-skills",
+    "description": "Agent skills, SDKs, and integration docs for Immersive Commons (immersivecommons.com) - Floor 10, Frontier Tower SF. Includes .claude/, .cursor/, .windsurf/ agent configs.",
+    "url": "https://github.com/Immersive-commons/ic-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-native",
+      "agent-skills",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "jettyio-jettyio-skills",
+    "name": "jettyio-skills",
+    "description": "Build, run, and monitor AI/ML workflows from any agent. MCP server extension for Claude Code, Gemini CLI, Cursor, VS Code Copilot, and more.",
+    "url": "https://github.com/jettyio/jettyio-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai",
+      "gemini-cli-extension",
+      "mcp"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "k97-skills",
+    "name": "skills",
+    "description": "Agent Skills for AI coding agents. codebase-seo: SEO + GEO audit that traces redirect loops, lints JSON-LD, and applies the fixes in your codebase.",
+    "url": "https://github.com/k97/skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "agent-skills",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "zejun-w-ai-research-writing-skills-hub",
+    "name": "AI-Research-Writing-Skills-Hub",
+    "description": "A bilingual curated hub of AI research writing prompts, skills, agents, and academic workflows for Codex, Claude Code, Cursor, and other AI coding assistants.",
+    "url": "https://github.com/Zejun-W/AI-Research-Writing-Skills-Hub",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "event4u-app-agent-config",
+    "name": "agent-config",
+    "description": "Universal AI Agent OS — audited skills, governance rules, replayable state. One contract, every host agent.",
+    "url": "https://github.com/event4u-app/agent-config",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-governance",
+      "agent-skills",
+      "ai-agent"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "jinning6-noosphere",
+    "name": "Noosphere",
+    "description": "The live network for high-quality Agent Skills — discover the latest verified versions, publish your own, and communicate agent-to-agent via MCP.",
+    "url": "https://github.com/JinNing6/Noosphere",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-memory",
+      "agent-skills",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "bendourthe-nexus-hub",
+    "name": "Nexus-Hub",
+    "description": "Enterprise-grade skill harness for AI coding assistants -- the upstream catalog for the Nexus desktop app and every major agent (Claude Code, OpenAI Codex, Antigravity, GitHub Copilot, Cursor, GitHub CLI). 256 curated skills, 15 commands, 22 hooks, cross-platform.",
+    "url": "https://github.com/bendourthe/Nexus-Hub",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "carlosjunioor-skillzs",
+    "name": "skillZs",
+    "description": "Open Agent Skills hub and directory for discovering, comparing, creating, and safely installing SKILL.md workflows.",
+    "url": "https://github.com/CarlosJunioor/skillZs",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "agent-skills-directory",
+      "agent-skills-hub"
+    ],
+    "updatedAt": "2026-07-15"
+  },
+  {
+    "id": "mxyhi-ok-skills",
+    "name": "ok-skills",
+    "description": "Curated AI coding agent skills and AGENTS.md playbooks for Codex, Claude Code, Cursor, OpenClaw, and other SKILL.md-compatible tools.",
+    "url": "https://github.com/mxyhi/ok-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "agents-md",
+      "ai"
+    ],
+    "updatedAt": "2026-07-19"
+  },
+  {
+    "id": "sx4im-skillcheck",
+    "name": "skillcheck",
+    "description": " 🧪 A/B test your agent skills — skillcheck measures whether a SKILL.md actually improves an LLM's task performance, with blind grading, bootstrap confidence intervals, and a 0–100 score. CLI for Claude Code, Codex & Cursor skills.",
+    "url": "https://github.com/sx4im/skillcheck",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ab-testing",
+      "agent-skill",
+      "agentic-workflow"
+    ],
+    "updatedAt": "2026-07-19"
+  },
+  {
+    "id": "faithndindacode-cursor-skills-md",
+    "name": "cursor-skills.md",
+    "description": "Cursor/Agent Skill 相关仓库：FaithNdindaCode/cursor-skills.md",
+    "url": "https://github.com/FaithNdindaCode/cursor-skills.md",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-08"
+  },
+  {
+    "id": "simstm-manage-cursor-skills",
+    "name": "manage-cursor-skills",
+    "description": "A fast, multithreaded CLI script to bulk-enable or bulk-disable auto-invocation of AI skills (SKILL.md files) used by Cursor, Claude Code, and Codex.",
+    "url": "https://github.com/SimStm/manage-cursor-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-skills",
+      "ai-tools",
+      "automation"
+    ],
+    "updatedAt": "2026-06-22"
+  },
+  {
+    "id": "69mannying-itsreallyvivek-research-agent-skill",
+    "name": "itsreallyvivek-research-agent-skill",
+    "description": "put the persona in .cursor/skills/research-agent/SKILL.md and call /research-agent to capture the skill ",
+    "url": "https://github.com/69mannying/itsreallyvivek-research-agent-skill",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-06-15"
+  },
+  {
+    "id": "nikkisieger-cursor-skills-import-repro-t-d44952",
+    "name": "cursor-skills-import-repro-T-D44952",
+    "description": "Test repo for Cursor support ticket T-D44952: demonstrates that Import from GitHub/GitLab silently drops SKILL.md files while importing .mdc rules.",
+    "url": "https://github.com/nikkisieger/cursor-skills-import-repro-T-D44952",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "id": "santowilem-skills",
+    "name": "skills",
+    "description": "Pixel-faithful UI cloning skill for Claude Code, Cursor, Codex CLI, ChatGPT, and Copilot. Anti-hallucination contract + adversarial verification. Built on the SKILL.md open standard.",
+    "url": "https://github.com/santowilem/skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-coding",
+      "anthropic"
+    ],
+    "updatedAt": "2026-07-18"
+  },
+  {
+    "id": "oferregevunity-cursor-skill-simple-skill-creator",
+    "name": "cursor-skill-simple-skill-creator",
+    "description": "Cursor skill: simple-skill-creator (SKILL.md)",
+    "url": "https://github.com/oferregevunity/cursor-skill-simple-skill-creator",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-05-11"
+  },
+  {
+    "id": "rayliu66-cursor-skills",
+    "name": "Cursor_Skills",
+    "description": "Personal Cursor Agent Skills (SKILL.md workflows)",
+    "url": "https://github.com/Rayliu66/Cursor_Skills",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-05-09"
+  },
+  {
+    "id": "jonfdag-dot-postgres-claude-skills-generator",
+    "name": "postgres-claude-skills-generator",
+    "description": "Chion AI - Postgres SQL skills generator for Claude Code, Codex, and Cursor. Connect your database, ask analytics questions, verify the answers — Chion.ai compiles re-exportable workspace with a CHION.md root agent file and one SKILL.md per employee, every script a verified query. More usage = sharper skills. Solo analyst to enterprise org.",
+    "url": "https://github.com/jonfdag-dot/postgres-claude-skills-generator",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-agents-for-business",
+      "claude-skills",
+      "codex-skills"
+    ],
+    "updatedAt": "2026-05-16"
+  },
+  {
+    "id": "alirana01-cursor-skills",
+    "name": "cursor-skills",
+    "description": "Personal repository for Cursor IDE skills I use. Each skill is a reusable guide (e.g. a SKILL.md) that helps the AI follow specific workflows or conventions",
+    "url": "https://github.com/alirana01/cursor-skills",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-04-20"
+  },
+  {
+    "id": "tseringyuu-anyviz",
+    "name": "anyviz",
+    "description": "面向 AI 时代的数据可视化规范与工作流库 — specification & workflow library for AI-era data visualization",
+    "url": "https://github.com/TseringYuu/anyviz",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai",
+      "ai-agent",
+      "charts"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "raishin-vanguard-frontier-agentic",
+    "name": "vanguard-frontier-agentic",
+    "description": "Curated marketplace of AI skills, agents, and rules for cloud, zero-trust, and compliance-aware engineering - works with Claude Code, Codex, Cursor, Copilot, and more.",
+    "url": "https://github.com/Raishin/vanguard-frontier-agentic",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents-framework",
+      "asia-cloud-provider"
+    ],
+    "updatedAt": "2026-07-19"
+  },
+  {
+    "id": "quantskills-skill-market-daily-review",
+    "name": "skill-market-daily-review",
+    "description": "Agent skill for Pandadata-based A-share after-close daily market review reports.",
+    "url": "https://github.com/quantskills/skill-market-daily-review",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "a-share",
+      "agent-skill",
+      "claude-skill"
+    ],
+    "updatedAt": "2026-07-18"
+  },
+  {
+    "id": "don-yin-apple-mail",
+    "name": "apple-mail",
+    "description": "an agent skill that gives AI assistants full control over macOS Mail.app",
+    "url": "https://github.com/Don-Yin/apple-mail",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-agent",
+      "apple-mail",
+      "applescript"
+    ],
+    "updatedAt": "2026-07-15"
+  },
+  {
+    "id": "ndjordjevic-pin-llm-wiki",
+    "name": "pin-llm-wiki",
+    "description": "Skill for Claude, Cursor & Copilot that automates the Karpathy LLM Wiki workflow: ingest web, GitHub, and YouTube URLs into a well-structured, citable, cross-referenced knowledge base with automatic linting.",
+    "url": "https://github.com/ndjordjevic/pin-llm-wiki",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "claude-skill",
+      "cursor-skill"
+    ],
+    "updatedAt": "2026-07-09"
+  },
+  {
+    "id": "zerolu-ultimate-ai-media-generator-skill",
+    "name": "Ultimate-AI-Media-Generator-Skill",
+    "description": "Open-source ai image generator skill and ai video generator skill for Codex, Claude Code, OpenClaw, Cursor, and more. Powered by   CyberBara API with Nano Banana, Sora 2, Seedance, and Kling support. No need to master prompt, this skill optimize your prompt for all kinds of creations like slides, anime and much more.",
+    "url": "https://github.com/ZeroLu/Ultimate-AI-Media-Generator-Skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "claude-code-skill",
+      "codex-skill",
+      "cursor-skill"
+    ],
+    "updatedAt": "2026-07-19"
+  },
+  {
+    "id": "alexander-danilenko-cortex-ai-skills",
+    "name": "cortex-ai-skills",
+    "description": "Opinionated AI Coding Skills for AI coding agents",
+    "url": "https://github.com/alexander-danilenko/cortex-ai-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-skill",
+      "ai-skills",
+      "claude-code"
+    ],
+    "updatedAt": "2026-06-22"
+  },
+  {
+    "id": "mythkiven-rednote-director-skill",
+    "name": "rednote-director-skill",
+    "description": "面向小红书/RedNote 创作者的 Agent Skill：图文轮播规划、视觉导演、封面内页设计、AI 生图提示词与发布文案。支持 Cursor、Claude、Codex。",
+    "url": "https://github.com/mythkiven/rednote-director-skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "ai-prompts",
+      "carousel"
+    ],
+    "updatedAt": "2026-07-12"
+  },
+  {
+    "id": "highmark-31-trae-skills",
+    "name": "TRAE-Skills",
+    "description": "A curated collection of  150+ specialized AI Skills for software development, frontend, backend, automation, UI/UX, SEO, and DevOps. Each skill encapsulates a focused capability: generating code, templates, scripts, and production-ready workflows.",
+    "url": "https://github.com/HighMark-31/TRAE-Skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-skills",
+      "claude-code",
+      "claude-skills"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "gordensun-gorden-vfx-video",
+    "name": "Gorden-vfx-video",
+    "description": "特效视频 & 网页动画生成 · pure-Python After-Effects-style compositing engine (vfxkit) + Cursor Agent Skill. Prompts → MP4 / HTML canvas. numpy+scipy+Pillow+ffmpeg, no Manim required.",
+    "url": "https://github.com/GordenSun/Gorden-vfx-video",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "after-effects",
+      "animation",
+      "cursor-skill"
+    ],
+    "updatedAt": "2026-06-21"
+  },
+  {
+    "id": "huanyuzhilv-skills-travel-planner",
+    "name": "skills-travel-planner",
+    "description": "开源 AI 路书生成工具 · Cursor/Claude Agent Skill：简版行程表 → tripData.json → 可交付 HTML/PDF。小红书配图、LLM 润色、飞猪酒店数据。Open-source AI travel roadbook generator for custom tour advisors.",
+    "url": "https://github.com/huanyuzhilv/skills-travel-planner",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-travel-planner",
+      "claude-skill",
+      "cursor-skill"
+    ],
+    "updatedAt": "2026-06-12"
+  },
+  {
+    "id": "dhanushnehru-claude-skills",
+    "name": "claude-skills",
+    "description": "Ready-to-use skill files that transform Claude into specialized AI agents. https://medium.com/@dhanushnehru/i-stopped-writing-prompts-now-i-give-claude-skills-instead-it-changed-everything-499d3f95ed66",
+    "url": "https://github.com/DhanushNehru/claude-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-ai",
+      "agent-plugins",
+      "agent-skills"
+    ],
+    "updatedAt": "2026-05-29"
+  },
+  {
+    "id": "digidai-product-manager-skills",
+    "name": "product-manager-skills",
+    "description": "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions.",
+    "url": "https://github.com/Digidai/product-manager-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "ai-agent-skill",
+      "ai-product"
+    ],
+    "updatedAt": "2026-07-17"
+  },
+  {
+    "id": "tght1211-autorouterkey",
+    "name": "AutoRouterKey",
+    "description": "Automated OpenRouter API Key harvester: Outlook registration → OpenRouter signup → email verification → 2FA → API Key creation → notifications → Web dashboard. Playwright-based, supports AI Agent Skills.",
+    "url": "https://github.com/Tght1211/AutoRouterKey",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-agent",
+      "api-key",
+      "automation"
+    ],
+    "updatedAt": "2026-06-16"
+  },
+  {
+    "id": "ppdbxdawj-ai-skills",
+    "name": "ai-skills",
+    "description": "Agent skills collection | Agent 技能合集",
+    "url": "https://github.com/ppdbxdawj/ai-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "ai-art",
+      "ai-image-generation"
+    ],
+    "updatedAt": "2026-06-06"
+  },
+  {
+    "id": "18163623522-ue-houdini-skills-collection",
+    "name": "ue-houdini-skills-collection",
+    "description": "A curated collection of 59 GitHub repositories for Unreal Engine + Houdini AI agent skills (SKILL.md), MCP servers, and DCC bridges. 收集 UE5 与 Houdini 相关的 AI Agent Skill 仓库（含 MCP、DCC 桥接、Shader/VEX 等）。",
+    "url": "https://github.com/18163623522/ue-houdini-skills-collection",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "slanchaai-ingot",
+    "name": "ingot",
+    "description": "Mine your traffic. Refine your skills. Ingot is a self-improving Agent Skills library: MCP routing, LangGraph agent, GEPA-evolved SKILL.md A/B-tested through the full agent, human-gated promotion with hot reload.",
+    "url": "https://github.com/SlanchaAI/ingot",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "gepa",
+      "langgraph"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "buildpad-ai-skills",
+    "name": "skills",
+    "description": "Official Agent Skills for building Buildpad apps — spec-driven development, DaaS scaffolding, and engineering practices for Claude Code, GitHub Copilot, Kiro, Antigravity, and any SKILL.md-compatible agent. Install: npx skills add buildpad-ai/skills",
+    "url": "https://github.com/buildpad-ai/skills",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "tywinlu1988-credence-global",
+    "name": "Credence-Global",
+    "description": "A methodology-first fixed-income credit analysis engine for global markets — delivered as Agent Skills (SKILL.md). Six international paradigms, four-layer architecture, S&P/Moody's/Fitch aligned. Installable in Claude Code, Codex, Cursor, Gemini, and OpenCode.",
+    "url": "https://github.com/tywinlu1988/Credence-Global",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "bond-market",
+      "claude-code"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "sentenz-skills",
+    "name": "skills",
+    "description": "Registry of modular Agent Skills (SKILL.md) capabilities and AGENTS.md for AI Agents.",
+    "url": "https://github.com/sentenz/skills",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "x0c-agentsync",
+    "name": "agentsync",
+    "description": "Sync AI coding-agent instructions and SKILL.md directories across tools",
+    "url": "https://github.com/x0c/agentsync",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "gaia-research-skill-fuse",
+    "name": "skill-fuse",
+    "description": "AI agent command consolidator for Claude Code, Cursor, Windsurf. Merge overlapping /commands into one unified SKILL.md — reduce slash command clutter, combine Cursor rules, dedupe Windsurf cascades. One-line install.",
+    "url": "https://github.com/gaia-research/skill-fuse",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agents",
+      "ai",
+      "ai-agent"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "whatsuppiyush-god-of-skills",
+    "name": "god-of-skills",
+    "description": "Free, tested AI skills, prompts & image style guides for Claude, ChatGPT, Cursor & agent tools. Organised by department. Install via SKILL.md or MCP. https://godofskills.com",
+    "url": "https://github.com/whatsuppiyush/god-of-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-skills",
+      "anthropic"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "hefrock-agent-skills",
+    "name": "agent-skills",
+    "description": "Portable AI agent skills built on the open SKILL.md standard  — self-contained capabilities any compatible agent can discover and load on demand, usable across Claude, Codex, Gemini CLI, Cursor, and GitHub Copilot.",
+    "url": "https://github.com/Hefrock/agent-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-tools"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "vikasudasi-skill-audit",
+    "name": "skill-audit",
+    "description": "CLI tool to audit, validate, and inventory agent skills (SKILL.md files) across multiple agent ecosystems",
+    "url": "https://github.com/vikasudasi/skill-audit",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "oraclepersonal-oracle-skill",
+    "name": "Oracle-skill",
+    "description": "Portable SKILL.md that teaches any AI agent (Claude Code, Codex, Gemini CLI) how to use the Oracle stack correctly.",
+    "url": "https://github.com/OraclePersonal/Oracle-skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-agents",
+      "mcp",
+      "skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "amariahak-atlarix-skills",
+    "name": "atlarix-skills",
+    "description": "Community skill registry for Atlarix — SKILL.md files that teach Atlarix agents language patterns, framework conventions, and developer workflows. Apache 2.0.",
+    "url": "https://github.com/AmariahAK/atlarix-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-coding-assistant",
+      "atlarix",
+      "coding-patterns"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "surgepix-agent-skills",
+    "name": "agent-skills",
+    "description": "Official SurgePix skills for AI coding agents — file upload, background removal, and more. Compatible with Claude Code, Codex CLI, Cursor, Gemini CLI, and any SKILL.md-compatible agent.",
+    "url": "https://github.com/SurgePix/agent-skills",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  },
+  {
+    "id": "privacydied-job-application-skill",
+    "name": "job-application-skill",
+    "description": "A toolkit an AI agent (Claude Code, or any agent that can run shell + read SKILL.md) uses to source jobs from job boards, screen them against your profile, fill and submit ATS application forms in a browser, and track everything — end to end, on-profile only.",
+    "url": "https://github.com/privacydied/job-application-skill",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-07-20"
+  }
+]
