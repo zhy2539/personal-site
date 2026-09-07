@@ -1,1 +1,577 @@
-[]
+[
+  {
+    "id": "7ossamfarid-mcp-mindmesh",
+    "name": "mcp-mindmesh",
+    "description": "Claude 3.7 Swarm with Field Coherence: A Model Context Protocol (MCP) server that orchestrates multiple specialized Claude 3.7 Sonnet instances in a quantum-inspired swarm. It creates a field coherence effect across pattern recognition, information theory, and reasoning specialists to produce optimally coherent responses from ensemble intelligence.",
+    "url": "https://github.com/7ossamfarid/mcp-mindmesh",
+    "tags": [
+      "GitHub",
+      "claude-api",
+      "mcp",
+      "mcp-server",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "rekog-labs-mcp-nest",
+    "name": "MCP-Nest",
+    "description": "A NestJS module to effortlessly create Model Context Protocol (MCP) servers for exposing AI tools, resources, and prompts.",
+    "url": "https://github.com/rekog-labs/MCP-Nest",
+    "tags": [
+      "GitHub",
+      "llm",
+      "llms",
+      "mcp",
+      "mcp-nest"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "ymxc152-plctap",
+    "name": "plctap",
+    "description": "Agent 的 PLC 驱动层 — Modbus / FINS / MELSEC / Siemens S7comm 的 MCP Server: 协议自动识别、读写、透明代理、故障诊断",
+    "url": "https://github.com/ymxc152/plctap",
+    "tags": [
+      "GitHub",
+      "agent",
+      "fastmcp",
+      "fins",
+      "industrial-automation"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "mcpjam-inspector",
+    "name": "inspector",
+    "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+    "url": "https://github.com/MCPJam/inspector",
+    "tags": [
+      "GitHub",
+      "anthropic",
+      "chatgpt",
+      "cicd",
+      "debugger"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "opensolon-solon-ai",
+    "name": "solon-ai",
+    "description": "Java AI application development framework (supports LLM-tool,skill; RAG; MCP; Agent-ReAct,Team-Agent). Compatible with java8 ~ java25. It can also be embedded in SpringBoot, jFinal, Vert.x, Quarkus, and other frameworks.",
+    "url": "https://github.com/opensolon/solon-ai",
+    "tags": [
+      "GitHub",
+      "ai",
+      "chat",
+      "deepseek",
+      "embedding"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "containers-kubernetes-mcp-server",
+    "name": "kubernetes-mcp-server",
+    "description": "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
+    "url": "https://github.com/containers/kubernetes-mcp-server",
+    "tags": [
+      "GitHub",
+      "containers",
+      "context",
+      "kubernetes",
+      "kubernetes-mcp"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "giauphan-codeatlas-platform",
+    "name": "codeatlas-platform",
+    "description": "AI-powered codebase intelligence platform — MCP Server, AST analysis, Knowledge Graph, and semantic memory with  SQLite + sqlite-vec. Analyze any codebase in minutes.",
+    "url": "https://github.com/giauphan/codeatlas-platform",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "ai",
+      "ast",
+      "code-analysis"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "giauphan-codeatlas-mcp-server",
+    "name": "codeatlas-mcp-server",
+    "description": "Local-first MCP server for AI-powered codebase intelligence — AST analysis, dependency graphs, and semantic search. Your source code never leaves your machine.",
+    "url": "https://github.com/giauphan/codeatlas-mcp-server",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "ai",
+      "ast",
+      "claude"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "opensolon-solon",
+    "name": "solon",
+    "description": "🔥 Java enterprise application development framework for full scenario: Restrained, Efficient, Open, Ecologicalll!!! 700% higher concurrency 50% memory savings Startup is 10 times faster. Packing 90% smaller; Compatible with java8 ~ java26; Supports LTS. (Replaceable spring)",
+    "url": "https://github.com/opensolon/solon",
+    "tags": [
+      "GitHub",
+      "aop-framework",
+      "ioc-framework",
+      "java",
+      "llm"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "tssujt-miniflux-mcp",
+    "name": "miniflux-mcp",
+    "description": "A Model Context Protocol (MCP) server for interacting with Miniflux RSS reader.",
+    "url": "https://github.com/tssujt/miniflux-mcp",
+    "tags": [
+      "GitHub",
+      "mcp-server",
+      "miniflux",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "zz-plant-ambit",
+    "name": "ambit",
+    "description": "The meta-MCP capability graph for AI agent environments",
+    "url": "https://github.com/zz-plant/ambit",
+    "tags": [
+      "GitHub",
+      "agent-infrastructure",
+      "ai-agents",
+      "capability-graph",
+      "claude-code"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "kyisaiah47-kynth-core-mcp",
+    "name": "kynth-core-mcp",
+    "description": "MCP server for ParseRail — 41 tools for finished-job AI work: documents to schema-valid JSON, field extraction, PII redaction, contract review, triage, research, moderation, agent memory. One credit wallet; failed calls never burn credits.",
+    "url": "https://github.com/kyisaiah47/kynth-core-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude",
+      "document-parsing",
+      "invoice-ocr"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "kyisaiah47-kynth-mcp",
+    "name": "kynth-mcp",
+    "description": "MCP server from Kynth Studios — eleven read-only lookups over live public data: AI model pricing and routing, dependency maintenance, service pricing and stack cost, agent skills and configs, shadcn component registries, starter-kit grades, AI app-builder App Store readiness, ADA Title II reports, nonprofit good-standing. No key, no signup.",
+    "url": "https://github.com/kyisaiah47/kynth-mcp",
+    "tags": [
+      "GitHub",
+      "agent-tools",
+      "ai-agents",
+      "claude",
+      "llm-pricing"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "agentsafe-ai-tooltrust-directory",
+    "name": "tooltrust-directory",
+    "description": "Trust layer for AI Agents. A curated registry of secure tools and MCP servers with A-F risk grading.",
+    "url": "https://github.com/AgentSafe-AI/tooltrust-directory",
+    "tags": [
+      "GitHub",
+      "agent-safety",
+      "ai-security",
+      "mcp",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "auscahq-mcp-server",
+    "name": "mcp-server",
+    "description": "Public metadata and connection docs for the Ausca MCP server. Pay-per-call APIs and MCP services for agents.",
+    "url": "https://github.com/auscahq/mcp-server",
+    "tags": [
+      "GitHub",
+      "agent-infrastructure",
+      "ai-agents",
+      "ausca",
+      "mcp"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "yo61-unifi-mcp",
+    "name": "unifi-mcp",
+    "description": "Model Context Protocol server for UniFi.",
+    "url": "https://github.com/yo61/unifi-mcp",
+    "tags": [
+      "GitHub"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "madgapun-pbp",
+    "name": "PBP",
+    "description": "Local AI job application assistant for the German-speaking job market (DACH) — job search, application tracking, CV analysis. MCP server for Claude Desktop, self-hosted, no cloud. Deutsch: dein Bewerbungs-Helfer, läuft komplett lokal.",
+    "url": "https://github.com/MadGapun/PBP",
+    "tags": [
+      "GitHub",
+      "ai",
+      "automation",
+      "bewerbung",
+      "claude"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "tooltrace-io-mcp-server",
+    "name": "mcp-server",
+    "description": "Web tools for AI agents over MCP: scrape pages to Markdown, extract metadata, links and JSON-LD, run SEO audits, detect tech stacks, check XML sitemaps",
+    "url": "https://github.com/ToolTrace-io/mcp-server",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude",
+      "codex",
+      "cursor"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "ayankamila-upgates-com-mcp",
+    "name": "upgates-com-mcp",
+    "description": "🚀 Automate your Upgates e-shop with the MCP server for seamless integration with the Upgates API v2.",
+    "url": "https://github.com/AyanKamila/upgates-com-mcp",
+    "tags": [
+      "GitHub",
+      "ai",
+      "czech",
+      "gdpr",
+      "mcp"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "stickerdaniel-linkedin-mcp-server",
+    "name": "linkedin-mcp-server",
+    "description": "Open-source MCP server for LinkedIn. Give Claude and any MCP-compatible AI agent access to profiles, companies, jobs, and messages.",
+    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "chatgpt-desktop"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "bautiroalt-mcp-server",
+    "name": "MCP-Server",
+    "description": "🚀 Launch a local server with ease using MCP Server for instant backend and interface setup, all with a single double-click.",
+    "url": "https://github.com/bautiroalt/MCP-Server",
+    "tags": [
+      "GitHub",
+      "agents",
+      "ai-agent",
+      "ai-agent-tools",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "adeelali4-antigravity-mcp",
+    "name": "antigravity-mcp",
+    "description": "Antigravity MCP server that enables CLI tools and AI agents to connect with and interact with Antigravity through the Model Context Protocol (MCP).",
+    "url": "https://github.com/adeelali4/antigravity-mcp",
+    "tags": [
+      "GitHub"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "asterwise-asterwise-mcp",
+    "name": "asterwise-mcp",
+    "description": "Hosted MCP server for real Vedic and Western astrology: 103 read-only tools for natal charts, dasha, matchmaking, panchanga, numerology and tarot. Swiss Ephemeris precision, OAuth 2.1, free tier.",
+    "url": "https://github.com/asterwise/asterwise-mcp",
+    "tags": [
+      "GitHub",
+      "astrology",
+      "fastmcp",
+      "horoscope",
+      "jyotish"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "dicklesworthstone-fastmcp-rust",
+    "name": "fastmcp_rust",
+    "description": "Rust framework for building Model Context Protocol servers with cancel-correct async, zero-copy serialization, and first-class tool/resource/prompt abstractions",
+    "url": "https://github.com/Dicklesworthstone/fastmcp_rust",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "async",
+      "json-rpc",
+      "mcp"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "hanyeol-model-compose",
+    "name": "model-compose",
+    "description": "Deploy production-ready AI services in minutes. One YAML file for agents, RAG pipelines, and MCP servers — run anywhere. Inspired by docker-compose.",
+    "url": "https://github.com/hanyeol/model-compose",
+    "tags": [
+      "GitHub",
+      "agent-framework",
+      "ai-agents",
+      "ai-infrastructure",
+      "ai-workflow"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "masayukita-m365-copilot-companion-mcp",
+    "name": "m365-copilot-companion-mcp",
+    "description": "Personal-use MCP server that gives Microsoft 365 Copilot real hands on your own laptop: files, Python, Office, SQL, Web. 100+ tools, autonomous relay, easily extensible, no extra licences.",
+    "url": "https://github.com/MasayukiTa/m365-copilot-companion-mcp",
+    "tags": [
+      "GitHub",
+      "agent",
+      "ai-agent",
+      "automation",
+      "claude"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "netapp-ontap-mcp",
+    "name": "ontap-mcp",
+    "description": "NetApp's ONTAP model context protocol server",
+    "url": "https://github.com/NetApp/ontap-mcp",
+    "tags": [
+      "GitHub"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "astranl-astranl-mcp",
+    "name": "astranl-mcp",
+    "description": "AstraNL — protocol-governed coordination infrastructure for the AI + robot + human economy. Live MCP server, Europe-wide robot & drone database.",
+    "url": "https://github.com/ASTRANL/astranl-mcp",
+    "tags": [
+      "GitHub",
+      "a2a",
+      "agent-economy",
+      "ai-agents",
+      "coordination"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "riponcm-projectmem",
+    "name": "projectmem",
+    "description": "Open-source coding agent memory. Records issues, attempts, fixes and decisions, then warns your agent before it repeats an approach that already failed. Native MCP server for Claude Code, Cursor, Antigravity and Codex. 100% local, no cloud, no telemetry. MIT.",
+    "url": "https://github.com/riponcm/projectmem",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "ai-agents",
+      "ai-memory",
+      "ai-tools"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "ansariwaqqas-storybook-mcp-server",
+    "name": "storybook-mcp-server",
+    "description": "🎨 Enhance Storybook with this TypeScript MCP server for seamless AI interaction, allowing easy access to components, stories, and screenshots.",
+    "url": "https://github.com/ansariwaqqas/storybook-mcp-server",
+    "tags": [
+      "GitHub",
+      "anthropic",
+      "claude",
+      "claude-desktop",
+      "component-library"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "michielinksee-linksee-memory",
+    "name": "linksee-memory",
+    "description": "Local-first agent memory MCP - cross-agent brain with token-saving file diff cache. By Synapse Arrows.",
+    "url": "https://github.com/michielinksee/linksee-memory",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "ai-agents",
+      "claude",
+      "claude-code"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "corpusiq-corpusiq-docs",
+    "name": "corpusiq-docs",
+    "description": "Hermes Agent Production Knowledge Repository — 406+ repos, AI Agent Marketplace, MCP servers, autonomous AI agent patterns. Production-tested from 1,200+ hours of ops. Updated daily.",
+    "url": "https://github.com/CorpusIQ/corpusiq-docs",
+    "tags": [
+      "GitHub",
+      "agent-skills",
+      "ai-agents",
+      "awesome-mcp",
+      "business-ai"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "hproxy-com-free-proxy-list",
+    "name": "free-proxy-list",
+    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.",
+    "url": "https://github.com/hproxy-com/free-proxy-list",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "anonymous-proxy",
+      "free-proxies",
+      "free-proxy"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "caura-ai-caura",
+    "name": "caura",
+    "description": "Caura (formerly MemClaw) — governed shared memory for AI agent fleets. Multi-agent, multi-tenant, MCP-native. Trust tiers, keystone policies, audit trails, knowledge graph, self-improving retrieval. Apache 2.0.",
+    "url": "https://github.com/caura-ai/caura",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "agentic-ai",
+      "ai-agents",
+      "ai-infrastructure"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "777genius-agent-teams-ai",
+    "name": "agent-teams-ai",
+    "description": "You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/OpenCode/Cursor/Grok/GitHub Copilot/Kiro/Z.AI/MiniMax/Kimi(200+ models, 75+ LLM providers, free models no auth). Build your AI company with multiple teams",
+    "url": "https://github.com/777genius/agent-teams-ai",
+    "tags": [
+      "GitHub",
+      "agent-orchestration",
+      "agent-teams",
+      "agent-to-agent",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "crbnos-carbon",
+    "name": "carbon",
+    "description": "Carbon is an open source ERP, MES and QMS for manufacturing. Perfect for complex assembly, contract manufacturing, high volume, and configure to order manufacturing.",
+    "url": "https://github.com/crbnos/carbon",
+    "tags": [
+      "GitHub",
+      "business",
+      "erp",
+      "lean",
+      "management"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "nikolai-vysotskyi-trace-mcp",
+    "name": "trace-mcp",
+    "description": "Framework-aware code intelligence MCP server for Claude Code and Codex — 70.5% fewer input tokens to review a pull request, median over 60 merged PRs in repos we don't own. 81 languages, 87 frameworks, 100% local.",
+    "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude",
+      "claude-ai",
+      "claude-code"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "lunarwerxs-agenthydra",
+    "name": "AgentHydra",
+    "description": "Every local AI coding session in one tab: Claude Code, Codex and OpenCode in a single list, with a queue you can schedule and isolated Claude Desktop instances kept apart. Local, private, MCP-native.",
+    "url": "https://github.com/LunarWerxs/AgentHydra",
+    "tags": [
+      "GitHub",
+      "agent-orchestration",
+      "ai-agents",
+      "anthropic",
+      "bun"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "agentsroomdev-electron-mcp-for-agentsroom",
+    "name": "electron-mcp-for-agentsroom",
+    "description": "Give your AI agents full control over any Electron app. Zero changes to your existing code. Made for AgentsRoom.dev. ",
+    "url": "https://github.com/AgentsRoomDev/electron-mcp-for-agentsroom",
+    "tags": [
+      "GitHub",
+      "electron",
+      "ide",
+      "mcp-server",
+      "terminal"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "n8n-io-n8n",
+    "name": "n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "url": "https://github.com/n8n-io/n8n",
+    "tags": [
+      "GitHub",
+      "ai",
+      "apis",
+      "automation",
+      "cli"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "maximhq-bifrost",
+    "name": "bifrost",
+    "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+    "url": "https://github.com/maximhq/bifrost",
+    "tags": [
+      "GitHub",
+      "ai-gateway",
+      "gateway",
+      "gateway-services",
+      "generative-ai"
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "amruthpillai-reactive-resume",
+    "name": "reactive-resume",
+    "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+    "url": "https://github.com/amruthpillai/reactive-resume",
+    "tags": [
+      "GitHub",
+      "agent-skills",
+      "ai",
+      "dsh-plugin",
+      "hacktoberfest"
+    ],
+    "updatedAt": "2026-09-07"
+  }
+]
