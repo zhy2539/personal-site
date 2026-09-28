@@ -1,1 +1,618 @@
-[]
+[
+  {
+    "id": "m8louist12-boop-mcp-server",
+    "name": "mcp-server",
+    "description": "Verify AI outputs in real-time to ensure code and data accuracy before execution with this Model Context Protocol server.",
+    "url": "https://github.com/m8louist12-boop/mcp-server",
+    "tags": [
+      "GitHub",
+      "bigquery",
+      "claude-mcp",
+      "content-extraction",
+      "context"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "gindhar2112-frida-mcp",
+    "name": "frida-mcp",
+    "description": "Enable AI-driven automated Android dynamic analysis by controlling Frida through the Model Context Protocol for streamlined reverse engineering.",
+    "url": "https://github.com/Gindhar2112/frida-mcp",
+    "tags": [
+      "GitHub",
+      "aarch64",
+      "ai-security",
+      "android",
+      "browser-extension"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "haniamkhan5-coder-mcp-servers-hub",
+    "name": "mcp-servers-hub",
+    "description": "Provide access to 50+ verified MCP servers with install guides and config snippets for quick AI agent integration with databases, APIs, and tools.",
+    "url": "https://github.com/haniamkhan5-coder/mcp-servers-hub",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "argocd",
+      "authentication-middleware",
+      "devops-tools"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "pokshiu-mcpgateway",
+    "name": "MCPGateway",
+    "description": "Unify local AITool instances and remote MCP servers into a single, searchable execution surface with a .NET 10 library.",
+    "url": "https://github.com/pokshiu/MCPGateway",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "ai-tools",
+      "aurora",
+      "claude"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "devu2805-nitrostack",
+    "name": "nitrostack",
+    "description": "Build production-ready, AI-native MCP servers with NitroStack, a TypeScript framework featuring decorators, dependency injection, and widgets.",
+    "url": "https://github.com/devu2805/nitrostack",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "ai",
+      "chatgpt",
+      "chatgpt-apps"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "moksharth77-mcp-remnawave",
+    "name": "mcp-remnawave",
+    "description": "Provide LLM clients with tools to fully manage Remnawave VPN panels using MCP Server for user, node, and system control.",
+    "url": "https://github.com/moksharth77/mcp-remnawave",
+    "tags": [
+      "GitHub",
+      "ai",
+      "aiogram",
+      "aws",
+      "cursor"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "avinash1441-awesome-mcp-korea",
+    "name": "awesome-mcp-korea",
+    "description": "Curate and access MCP servers and tools tailored for Korea’s legal, commerce, public data, finance, and real estate sectors.",
+    "url": "https://github.com/avinash1441/awesome-mcp-korea",
+    "tags": [
+      "GitHub",
+      "aws",
+      "browser-automation",
+      "c",
+      "claude-mcp"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "kamflowersthemacrogod-opentwitter-mcp",
+    "name": "opentwitter-mcp",
+    "description": "Provide Twitter data access with user profiles, tweet search, follower events, and influencer tracking through an easy-to-deploy MCP server.",
+    "url": "https://github.com/kamflowersthemacrogod/opentwitter-mcp",
+    "tags": [
+      "GitHub",
+      "ai",
+      "aws",
+      "browser-automation",
+      "browser-extension"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "danya120o3-processhacker-mcp",
+    "name": "processhacker-mcp",
+    "description": "Enable runtime analysis and control of AI agents with a dynamic process hacking server similar to Process Hacker for enhanced debugging and integration.",
+    "url": "https://github.com/danya120o3/processhacker-mcp",
+    "tags": [
+      "GitHub",
+      "browser-automation",
+      "bypass-av",
+      "mcp-client",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "shrav89-skill-scanner",
+    "name": "skill-scanner",
+    "description": "🔍 Discover and analyze AI skills in your projects with Skill Scanner to enhance development and improve security.",
+    "url": "https://github.com/shrav89/skill-scanner",
+    "tags": [
+      "GitHub",
+      "agent",
+      "agent-skills",
+      "ai",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "srezai-team-srezai-mcp",
+    "name": "srezai-mcp",
+    "description": "MCP-сервер срезAI: веб-поиск, чтение страниц и извлечение данных по схеме как инструменты ИИ-агента",
+    "url": "https://github.com/srezai-team/srezai-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude",
+      "deep-research",
+      "llm"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "bernardpacis-create-mcp-server-kit",
+    "name": "create-mcp-server-kit",
+    "description": "🚀 Scaffold a production-ready Model Context Protocol (MCP) server in seconds, complete with TypeScript, validation, and CI-ready templates.",
+    "url": "https://github.com/bernardpacis/create-mcp-server-kit",
+    "tags": [
+      "GitHub",
+      "ai",
+      "aiot",
+      "anthropic",
+      "api"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "biggy44-mcp-server",
+    "name": "mcp-server",
+    "description": "🚀 Compress and decompress JSON with the ASON MCP server, maximizing efficiency through optimized token reduction for seamless data handling.",
+    "url": "https://github.com/biggy44/mcp-server",
+    "tags": [
+      "GitHub",
+      "ai",
+      "deepseek",
+      "deepseek-mcp",
+      "firecrawl"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "justkokosixnine-polymarket-mcp-server",
+    "name": "polymarket-mcp-server",
+    "description": "🤖 Power your trading on Polymarket with an AI-driven platform that offers real-time monitoring and advanced tools for effective market analysis.",
+    "url": "https://github.com/Justkokosixnine/polymarket-mcp-server",
+    "tags": [
+      "GitHub",
+      "agents",
+      "ai",
+      "ai-trading",
+      "aitools"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "mcpjam-inspector",
+    "name": "inspector",
+    "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+    "url": "https://github.com/MCPJam/inspector",
+    "tags": [
+      "GitHub",
+      "anthropic",
+      "chatgpt",
+      "cicd",
+      "debugger"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "albaker-group-cloudprice-mcp",
+    "name": "cloudprice-mcp",
+    "description": "MCP server that compares on-demand VM pricing across AWS, Azure, and GCP in real time",
+    "url": "https://github.com/Albaker-Group/cloudprice-mcp",
+    "tags": [
+      "GitHub",
+      "anthropic",
+      "aws",
+      "azure",
+      "claude"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "dpc00-sublime-mcp",
+    "name": "sublime-mcp",
+    "description": "MCP server for Sublime Text 4 — lets Claude Code read and control a running ST instance",
+    "url": "https://github.com/dpc00/sublime-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude-code",
+      "dap",
+      "lsp"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "as2227741-beep-fastmcp",
+    "name": "fastmcp",
+    "description": "Build Model Context Protocol servers in Python with a simple, high-performance framework.",
+    "url": "https://github.com/as2227741-beep/fastmcp",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "anthropic",
+      "async",
+      "coordination"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "benethos-hub-mailbox",
+    "name": "mailbox",
+    "description": "Self-hosted REST API and web UI for all your mailboxes (IMAP, Microsoft 365, Outlook.com), with an MCP server so AI assistants like Claude can read, sort, draft and send mail, only within the rights and send limits you grant. Pre-alpha.",
+    "url": "https://github.com/benethos-hub/mailbox",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude",
+      "email",
+      "email-automation"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "josifb-whichlib",
+    "name": "whichlib",
+    "description": "The dependency picker for coding agents: an MCP server that recommends, compares and scores GitHub repos with a verdict. npx -y whichlib",
+    "url": "https://github.com/josifb/whichlib",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude-code",
+      "cursor",
+      "dependencies"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "psicossz29-netizen-base-http402-extractor-api",
+    "name": "base-http402-extractor-api",
+    "description": "Autonomous HTTP 402 Web-to-Markdown API & MCP Server powered by Base L2 micropayments (0.05 USDC).",
+    "url": "https://github.com/psicossz29-netizen/base-http402-extractor-api",
+    "tags": [
+      "GitHub",
+      "ai-tools",
+      "base-l2",
+      "http-402",
+      "llm-extractor"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "rainlxyl-netease-music-mcp-safe",
+    "name": "netease-music-mcp-safe",
+    "description": "MCP server connecting ChatGPT/Codex to NetEase Cloud Music for recommendations, listening context, curated playlists, podcasts, and safe account writes.",
+    "url": "https://github.com/Rainlxyl/netease-music-mcp-safe",
+    "tags": [
+      "GitHub",
+      "chatgpt",
+      "codex",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "soporte-defontsoft-delphi-ide-remote-mcp",
+    "name": "delphi-ide-remote-mcp",
+    "description": "An MCP server that turns a Windows RAD Studio machine into a remote backend for programming agents: safe editing, real MSBuild builds, git, scaffolding, deploy & remote execution via PAServer, Android (adb), Linux and Windows desktop control, DelphiLSP semantic navigation (8 of 42 tools), persistent vault. Per-workspace security.",
+    "url": "https://github.com/soporte-defontsoft/delphi-ide-remote-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "android",
+      "claude",
+      "delphi"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "sandraschi-devices-mcp",
+    "name": "devices-mcp",
+    "description": "MCP server + web dashboard + Windows Tauri app for home LAN devices (Tapo, Hue, Ring, Nest, Shelly).",
+    "url": "https://github.com/sandraschi/devices-mcp",
+    "tags": [
+      "GitHub",
+      "fastmcp",
+      "home-automation",
+      "iot",
+      "mcp"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "fandych-suora",
+    "name": "suora",
+    "description": "Local-first AI desktop workbench with chat, documents, agents, skills, pipelines, channels, and MCP servers.",
+    "url": "https://github.com/fandych/suora",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "ai-assistant",
+      "automation",
+      "desktop-app"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "krowli-kanbo",
+    "name": "kanbo",
+    "description": "A Kanban board your AI agents drive through a CLI and an MCP server, while you watch and approve.",
+    "url": "https://github.com/Krowli/kanbo",
+    "tags": [
+      "GitHub",
+      "agentic-workflows",
+      "ai-agents",
+      "claude-code",
+      "cli"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "shaylaisotonic44-pcloud-mcp",
+    "name": "pcloud-mcp",
+    "description": "Connect pCloud storage to AI agents using this Model Context Protocol server written in Go.",
+    "url": "https://github.com/shaylaisotonic44/pcloud-mcp",
+    "tags": [
+      "GitHub",
+      "ai-tools",
+      "authentication",
+      "claude",
+      "cloud-storage"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "linny006-mcp-servers-live",
+    "name": "mcp-servers-live",
+    "description": "Auto-updated index of MCP servers shipping on GitHub, refreshed every 15 minutes",
+    "url": "https://github.com/linny006/mcp-servers-live",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "ai-infrastructure",
+      "ai-protocol",
+      "ai-tools"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "whites18-dsh-mcp-servers-panel",
+    "name": "dsh-mcp-servers-panel",
+    "description": "DSH MCP 服务器管理面板：设置里新增/编辑/启停 MCP 服务器，工具自动注册到对话",
+    "url": "https://github.com/whiteS18/dsh-mcp-servers-panel",
+    "tags": [
+      "GitHub",
+      "deepseek-harness",
+      "dsh-plugin",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "tencentcloudbase-cloudbase-ai-toolkit",
+    "name": "CloudBase-AI-Toolkit",
+    "description": "Backend for AI coding agents on CloudBase — database, auth, functions via Plugin, Skills & MCP.",
+    "url": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
+    "tags": [
+      "GitHub",
+      "agent-skills",
+      "ai",
+      "aicoding",
+      "claude-code"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "neomjs-neo",
+    "name": "neo",
+    "description": "Neo.mjs is a self-evolving software organism: a professional end-to-end AI engineering team whose cross-model swarm inhabits live apps via Neural Link, Active Hybrid GraphRAG, DreamService, and self-healing loops.",
+    "url": "https://github.com/neomjs/neo",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "ai",
+      "ai-agent",
+      "ai-memory"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "hproxy-com-free-proxy-list",
+    "name": "free-proxy-list",
+    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.",
+    "url": "https://github.com/hproxy-com/free-proxy-list",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "anonymous-proxy",
+      "free-proxies",
+      "free-proxy"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "igorganapolsky-thumbgate",
+    "name": "ThumbGate",
+    "description": "ThumbGate Pre-Action Checks self-improve from ranked lessons and repeated failures, hard-block detected secret leaks, and block matches in strict mode.",
+    "url": "https://github.com/IgorGanapolsky/ThumbGate",
+    "tags": [
+      "GitHub",
+      "agent-reliability",
+      "ai-agents",
+      "ai-safety",
+      "amp"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "cocoonstack-sandbox",
+    "name": "sandbox",
+    "description": "Fast cold-boot MicroVM sandboxes for AI agents on cocoon",
+    "url": "https://github.com/cocoonstack/sandbox",
+    "tags": [
+      "GitHub",
+      "ai",
+      "ai-agents",
+      "fast",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "upstash-context7",
+    "name": "context7",
+    "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+    "url": "https://github.com/upstash/context7",
+    "tags": [
+      "GitHub",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "vibe-coding"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "n8n-io-n8n",
+    "name": "n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "url": "https://github.com/n8n-io/n8n",
+    "tags": [
+      "GitHub",
+      "ai",
+      "apis",
+      "automation",
+      "cli"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "fmarzochi-egc",
+    "name": "EGC",
+    "description": "EGC gives every AI coding agent the same brain. Shared memory, skills, and live context across Cursor, Claude Code, Copilot, Aider, and 20+ AI coding tools with zero configuration. Every tab, terminal, and AI stays automatically synchronized. One brain. Everywhere.",
+    "url": "https://github.com/Fmarzochi/EGC",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "agentic-workflows",
+      "ai-agents",
+      "ai-memory"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "activepieces-activepieces",
+    "name": "activepieces",
+    "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+    "url": "https://github.com/activepieces/activepieces",
+    "tags": [
+      "GitHub",
+      "ai-agent",
+      "ai-agent-tools",
+      "ai-agents",
+      "ai-agents-framework"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "linny006-trending-claude-skills",
+    "name": "trending-claude-skills",
+    "description": "Auto-updated leaderboard of trending claude-skills and AI agent repos, refreshed every 15 minutes",
+    "url": "https://github.com/linny006/trending-claude-skills",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "ai-coding",
+      "ai-development",
+      "ai-tools"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "triggerdotdev-trigger-dev",
+    "name": "trigger.dev",
+    "description": "Trigger.dev – build and deploy durable AI agents and workflows",
+    "url": "https://github.com/triggerdotdev/trigger.dev",
+    "tags": [
+      "GitHub",
+      "ai",
+      "ai-agent-framework",
+      "ai-agents",
+      "automation"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "trailhq-graft",
+    "name": "Graft",
+    "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
+    "url": "https://github.com/trailhq/Graft",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "cli"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "agentsroomdev-electron-mcp-for-agentsroom",
+    "name": "electron-mcp-for-agentsroom",
+    "description": "Give your AI agents full control over any Electron app. Zero changes to your existing code. Made for AgentsRoom.dev. ",
+    "url": "https://github.com/AgentsRoomDev/electron-mcp-for-agentsroom",
+    "tags": [
+      "GitHub",
+      "electron",
+      "ide",
+      "mcp-server",
+      "terminal"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "ypollak2-llm-router",
+    "name": "llm-router",
+    "description": "Universal LLM router for AI coding tools. Works with Claude Code, Cursor, Codex, Gemini CLI, Copilot and more. Free-first fallback chain cuts costs 35-80%.",
+    "url": "https://github.com/ypollak2/llm-router",
+    "tags": [
+      "GitHub",
+      "ai-routing",
+      "anthropic",
+      "claude",
+      "claude-code"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "czarnak-tia-portal-mcp",
+    "name": "tia-portal-mcp",
+    "description": "Specialized bridge designed to connect LLMs and AI agents directly to Siemens SIMATIC TIA Portal V21.",
+    "url": "https://github.com/Czarnak/tia-portal-mcp",
+    "tags": [
+      "GitHub",
+      "agent",
+      "agentic-ai",
+      "claude",
+      "claude-code"
+    ],
+    "updatedAt": "2026-09-28"
+  }
+]
