@@ -1,1 +1,586 @@
-[]
+[
+  {
+    "id": "sergelogvinov-talos-mcp",
+    "name": "talos-mcp",
+    "description": "Talos  is an opinionated MCP server for Talos Linux",
+    "url": "https://github.com/sergelogvinov/talos-mcp",
+    "tags": [
+      "GitHub",
+      "kubernetes",
+      "mcp",
+      "model-context-protocol",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "alpic-ai-skybridge",
+    "name": "skybridge",
+    "description": "Skybridge is a full-stack TypeScript framework for MCP Apps and ChatGPT Apps. Type-safe. React-powered. Platform-agnostic.",
+    "url": "https://github.com/alpic-ai/skybridge",
+    "tags": [
+      "GitHub",
+      "agent",
+      "ai",
+      "apps-sdk",
+      "chatgpt"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "mcpjam-inspector",
+    "name": "inspector",
+    "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+    "url": "https://github.com/MCPJam/inspector",
+    "tags": [
+      "GitHub",
+      "anthropic",
+      "chatgpt",
+      "cicd",
+      "debugger"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "andrianagnostic63-markapatent-mcp",
+    "name": "markapatent-mcp",
+    "description": "Provide programmatic access to TÜRKPATENT’s trademark, patent, and design databases through a standardized MCP server for IP research tools.",
+    "url": "https://github.com/Andrianagnostic63/markapatent-mcp",
+    "tags": [
+      "GitHub",
+      "ai",
+      "ai-agent",
+      "ai-agent-tools",
+      "ai-agents-framework"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "anonymousforareason111-hybrid-orchestrator",
+    "name": "hybrid-orchestrator",
+    "description": "🤖 Implement hybrid human-AI orchestration patterns in Python to coordinate agents, manage sessions, and enable smooth AI-human handoffs.",
+    "url": "https://github.com/Anonymousforareason111/hybrid-orchestrator",
+    "tags": [
+      "GitHub",
+      "aws",
+      "envoy",
+      "hpc",
+      "hybrid-search"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "duciker14-cloudflare-mcp",
+    "name": "cloudflare-mcp",
+    "description": "☁️ Build a lightweight MCP server for efficient interaction with the complete Cloudflare API, streamlining your cloud management tasks.",
+    "url": "https://github.com/duciker14/cloudflare-mcp",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "anthropic"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "frozo-ai-edgegate-mcp",
+    "name": "edgegate-mcp",
+    "description": "MCP server for EdgeGate — set up edge-AI regression gates from Claude Code, Cursor, or Claude Desktop.",
+    "url": "https://github.com/frozo-ai/edgegate-mcp",
+    "tags": [
+      "GitHub",
+      "claude",
+      "edge-ai",
+      "jetson",
+      "mcp"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "nobita5609-mcp-zig",
+    "name": "mcp.zig",
+    "description": "🛠️ Build efficient Zig-based tools with MCP.zig, focusing on modularity and performance for streamlined software development.",
+    "url": "https://github.com/nobita5609/mcp.zig",
+    "tags": [
+      "GitHub",
+      "code-quality",
+      "developer-experience",
+      "devtools",
+      "home-automation"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "sbsdbs-simple-mcp-server",
+    "name": "simple_mcp_server",
+    "description": "🌌 Create a simple MCP Server using the Star Wars API to access characters, planets, and films efficiently for testing and integration purposes.",
+    "url": "https://github.com/sbsdbs/simple_mcp_server",
+    "tags": [
+      "GitHub",
+      "amazon-web-services",
+      "aws",
+      "aws-lambda",
+      "boilerplate"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "maumanto-jenkins-mcp-server",
+    "name": "jenkins-mcp-server",
+    "description": "🔍 Fetch and analyze Jenkins build logs effortlessly with the MCP server, supporting multiple instances and automatic detection from job URLs.",
+    "url": "https://github.com/MauManto/jenkins-mcp-server",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "business-intelligence",
+      "cicd",
+      "console-logs"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "snyk-agent-scan",
+    "name": "agent-scan",
+    "description": "Security scanner for AI agents, MCP servers and agent skills.",
+    "url": "https://github.com/snyk/agent-scan",
+    "tags": [
+      "GitHub",
+      "agent",
+      "ai",
+      "mcp",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "lm203688-healthlens",
+    "name": "healthlens",
+    "description": "HealthLens — 中西医融合健康管理平台 + MCP server (healthlens-mcp). HTTP endpoint https://healthlens.cc/api/v1/mcp",
+    "url": "https://github.com/lm203688/healthlens",
+    "tags": [
+      "GitHub",
+      "fastapi",
+      "health",
+      "healthcare-ai",
+      "mcp"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "falldownthesystem-converse",
+    "name": "converse",
+    "description": "Converse MCP Server",
+    "url": "https://github.com/FallDownTheSystem/converse",
+    "tags": [
+      "GitHub",
+      "ai",
+      "llm",
+      "mcp",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "6aemi-dsh-mcp-admin",
+    "name": "dsh-mcp-admin",
+    "description": "Inspect MCP status with /mcp and manage MCP servers via Settings, with changes written to cordis.patch.yml.",
+    "url": "https://github.com/6aemi/dsh-mcp-admin",
+    "tags": [
+      "GitHub",
+      "admin",
+      "admin-template",
+      "agent",
+      "ai"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "synovial-lionfish82-video-extract-mcp",
+    "name": "video-extract-mcp",
+    "description": "Turn any video URL into an AI-ready transcript and keyframe images via a local MCP server, no cloud or API keys.",
+    "url": "https://github.com/synovial-lionfish82/video-extract-mcp",
+    "tags": [
+      "GitHub",
+      "bilibili-subtitle",
+      "claude-code",
+      "ffmpeg",
+      "instagram"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "modelcontextprotocol-typescript-sdk",
+    "name": "typescript-sdk",
+    "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+    "tags": [
+      "GitHub",
+      "mcp",
+      "mcp-client",
+      "mcp-server",
+      "typescript"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "the-basilisk-ai-squad-mcp",
+    "name": "squad-mcp",
+    "description": "Remote Model Context Protocol (MCP) server for Squad AI. Manage your product strategy with your favourite AI agent. ",
+    "url": "https://github.com/the-basilisk-ai/squad-mcp",
+    "tags": [
+      "GitHub"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "ezydubs-seek-mcp",
+    "name": "seek-mcp",
+    "description": "MCP server for Seek NZ: search jobs, read ads, manage your profile and résumés, and apply over Seek's own API — no browser. AI to beat the AI screeners.",
+    "url": "https://github.com/ezydubs/seek-mcp",
+    "tags": [
+      "GitHub",
+      "claude",
+      "job-search",
+      "jobs",
+      "mcp"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "shayan-m81-layerwright",
+    "name": "layerwright",
+    "description": "Turn Claude Design and HTML into editable Figma layers (Auto Layout, your Design System components), and Figma frames into code with your own React components. MCP server + Figma plugin for Claude Code and Cursor.",
+    "url": "https://github.com/shayan-m81/layerwright",
+    "tags": [
+      "GitHub",
+      "ai-design",
+      "claude",
+      "claude-code",
+      "cursor"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "amrsaber-mcp-gateway",
+    "name": "mcp-gateway",
+    "description": "A single MCP gateway that fronts many MCP servers — connect as many tools as you want without their schemas ever polluting the agent's context.",
+    "url": "https://github.com/AmrSaber/mcp-gateway",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "context-window",
+      "go",
+      "llm"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "shinpr-mcp-image",
+    "name": "mcp-image",
+    "description": "MCP server for AI image generation and editing with automatic prompt optimization and quality presets. Supports Nano Banana (Gemini), OpenAI GPT Image, and BytePlus Seedream.",
+    "url": "https://github.com/shinpr/mcp-image",
+    "tags": [
+      "GitHub",
+      "agent-skills",
+      "ai-tools",
+      "claude-code",
+      "codex"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "strategiumfinancepartner-agentnexus",
+    "name": "AgentNexus",
+    "description": "Continuously verified registry of the APIs, MCP servers and CLIs that AI agents call — live health checks, reliability history, and an anonymous MCP endpoint agents can connect to without a consent screen.",
+    "url": "https://github.com/Strategiumfinancepartner/AgentNexus",
+    "tags": [
+      "GitHub",
+      "agent-infrastructure",
+      "agentic-ai",
+      "ai-agents",
+      "api-registry"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "dongnguyenvie-bashcut-agent-kit",
+    "name": "bashcut-agent-kit",
+    "description": "BashCut's agent kit: editing skills (footage survey, beat cuts, audio mix, captions, colour, voiceover…) and the BashCut MCP server for Claude Code and Codex.",
+    "url": "https://github.com/dongnguyenvie/bashcut-agent-kit",
+    "tags": [
+      "GitHub",
+      "agent-skills",
+      "ai-agents",
+      "bashcut",
+      "claude-code"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "homeassistant-ai-ha-mcp",
+    "name": "ha-mcp",
+    "description": "The Unofficial and Awesome Home Assistant MCP Server",
+    "url": "https://github.com/homeassistant-ai/ha-mcp",
+    "tags": [
+      "GitHub",
+      "ai",
+      "claude",
+      "hacs",
+      "home-assistant"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "robynawesome-introduction-to-mcp",
+    "name": "Introduction-to-MCP",
+    "description": "Focusing on building both MCP servers and clients using the Python SDK to make sure these three core primitives—tools, resources, and prompts—and understand how they integrate with Claude AI, Gemini AI, Copilot and Grok to create powerful applications without writing extensive integration code.",
+    "url": "https://github.com/RobynAwesome/Introduction-to-MCP",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "nybaywatch-agrusscanner",
+    "name": "AgrusScanner",
+    "description": "Windows network scanner that finds AI/ML services and MCP servers on your network (shadow AI discovery). Signed, self-updating detection signatures. Runs as an MCP server too.",
+    "url": "https://github.com/NYBaywatch/AgrusScanner",
+    "tags": [
+      "GitHub",
+      "ai-security",
+      "claude-code",
+      "csharp",
+      "dotnet"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "bompus-swarmail",
+    "name": "swarmail",
+    "description": "Local mail between coding-agent sessions on one machine: an MCP server and CLI on Bun and SQLite.",
+    "url": "https://github.com/bompus/swarmail",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "bun",
+      "claude-code",
+      "codex"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "bzdos-hubd",
+    "name": "hubd",
+    "description": "The project tracker for teams of humans and AI agents — in plain files. MCP server + CLI, zero dependencies.",
+    "url": "https://github.com/bzdOS/hubd",
+    "tags": [
+      "GitHub",
+      "agent-coordination",
+      "agents",
+      "ai-agents",
+      "cli"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "c-premus-documcp",
+    "name": "documcp",
+    "description": "MCP server for document management — search, read, and manage docs via Model Context Protocol",
+    "url": "https://github.com/c-premus/documcp",
+    "tags": [
+      "GitHub",
+      "document-management",
+      "golang",
+      "mcp",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "bruchris-canvas-lms-mcp",
+    "name": "canvas-lms-mcp",
+    "description": "Canvas LMS MCP server — read courses, assignments, submissions, rubrics, quizzes; grade and comment from any AI agent",
+    "url": "https://github.com/bruchris/canvas-lms-mcp",
+    "tags": [
+      "GitHub",
+      "ai",
+      "canvas-lms",
+      "education",
+      "instructure"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "linny006-trending-claude-skills",
+    "name": "trending-claude-skills",
+    "description": "Auto-updated leaderboard of trending claude-skills and AI agent repos, refreshed every 15 minutes",
+    "url": "https://github.com/linny006/trending-claude-skills",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "ai-coding",
+      "ai-development",
+      "ai-tools"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "ruvnet-ruflo",
+    "name": "ruflo",
+    "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+    "url": "https://github.com/ruvnet/ruflo",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "agents"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "ggozad-haiku-rag",
+    "name": "haiku.rag",
+    "description": "Agentic RAG for local and self-hosted document search: hybrid retrieval, reranking and multimodal RAG on embedded LanceDB, with Docling parsing and an MCP server",
+    "url": "https://github.com/ggozad/haiku.rag",
+    "tags": [
+      "GitHub",
+      "ag-ui",
+      "agentic-rag",
+      "code-execution",
+      "code-mode"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "okieselbach-autopilotmonitor",
+    "name": "AutopilotMonitor",
+    "description": "Windows Autopilot & Intune enrollment monitoring: live session timelines, fleet health, diagnostics, and an MCP server for AI-assisted troubleshooting.",
+    "url": "https://github.com/okieselbach/AutopilotMonitor",
+    "tags": [
+      "GitHub",
+      "autopilot",
+      "device-management",
+      "device-provisioning",
+      "endpoint-management"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "sema-lisp-sema",
+    "name": "sema",
+    "description": "A Lisp with first-class LLM primitives, implemented in Rust",
+    "url": "https://github.com/sema-lisp/sema",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "interpreter"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "lunarwerxs-agenthydra",
+    "name": "AgentHydra",
+    "description": "Every local AI coding session in one tab: Claude Code, Codex and OpenCode in a single list, with a queue you can schedule and isolated Claude Desktop instances kept apart. Local, private, MCP-native.",
+    "url": "https://github.com/LunarWerxs/AgentHydra",
+    "tags": [
+      "GitHub",
+      "agent-orchestration",
+      "ai-agents",
+      "anthropic",
+      "bun"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "hproxy-com-free-proxy-list",
+    "name": "free-proxy-list",
+    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.",
+    "url": "https://github.com/hproxy-com/free-proxy-list",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "anonymous-proxy",
+      "free-proxies",
+      "free-proxy"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "maximhq-bifrost",
+    "name": "bifrost",
+    "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+    "url": "https://github.com/maximhq/bifrost",
+    "tags": [
+      "GitHub",
+      "ai-gateway",
+      "gateway",
+      "gateway-services",
+      "generative-ai"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "chronoaiproject-nyxid",
+    "name": "NyxID",
+    "description": "Connect AI agents to any API, anywhere. Securely. Open-source gateway that proxies requests, injects credentials automatically, punches through NAT to reach localhost services, and wraps REST APIs as MCP tools. Per-agent isolation. Never expose a raw key.",
+    "url": "https://github.com/ChronoAIProject/NyxID",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "api-gateway",
+      "claude-code",
+      "codex"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "dongnguyenvie-bashcut",
+    "name": "BashCut",
+    "description": "Native macOS video editor that coding agents can drive: everything the UI does, Claude Code and Codex can do through the bashcut CLI or MCP server. Layered timeline, captions, voiceover, plugins.",
+    "url": "https://github.com/dongnguyenvie/BashCut",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "ai-agents",
+      "apple-silicon",
+      "bashcut"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "caura-ai-caura",
+    "name": "caura",
+    "description": "Caura (formerly MemClaw) — governed shared memory for AI agent fleets. Multi-agent, multi-tenant, MCP-native. Trust tiers, keystone policies, audit trails, knowledge graph, self-improving retrieval. Apache 2.0.",
+    "url": "https://github.com/caura-ai/caura",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "agentic-ai",
+      "ai-agents",
+      "ai-infrastructure"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "worldnine-scrapbox-cosense-mcp",
+    "name": "scrapbox-cosense-mcp",
+    "description": "MCP server for Cosense (Scrapbox) — read, search, create, and edit wiki pages from Claude and other AI agents. Also works as a CLI and Claude Code plugin.",
+    "url": "https://github.com/worldnine/scrapbox-cosense-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "cli"
+    ],
+    "updatedAt": "2026-10-05"
+  }
+]
