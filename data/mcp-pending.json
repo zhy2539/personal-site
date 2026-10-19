@@ -1,1 +1,589 @@
-[]
+[
+  {
+    "id": "mcpjam-inspector",
+    "name": "inspector",
+    "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+    "url": "https://github.com/MCPJam/inspector",
+    "tags": [
+      "GitHub",
+      "anthropic",
+      "chatgpt",
+      "cicd",
+      "debugger"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "giuliokumar4012-mediawiki-mcp-server",
+    "name": "MediaWiki-MCP-Server",
+    "description": "Model Context Protocol (MCP) Server to connect your AI with any MediaWiki",
+    "url": "https://github.com/giuliokumar4012/MediaWiki-MCP-Server",
+    "tags": [
+      "GitHub",
+      "agents",
+      "ai",
+      "ai-agent-tools",
+      "gemini-cli-extension"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "ogawa266-cli",
+    "name": "cli",
+    "description": "Fine-grained control over model context protocol (MCP) clients, servers, and tools. Context is God.",
+    "url": "https://github.com/Ogawa266/cli",
+    "tags": [
+      "GitHub",
+      "mcp",
+      "mcp-admin",
+      "mcp-analytics",
+      "mcp-client"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "lm203688-healthlens",
+    "name": "healthlens",
+    "description": "HealthLens — 中西医融合健康管理平台 + MCP server (healthlens-mcp). HTTP endpoint https://healthlens.cc/api/v1/mcp",
+    "url": "https://github.com/lm203688/healthlens",
+    "tags": [
+      "GitHub",
+      "fastapi",
+      "health",
+      "healthcare-ai",
+      "mcp"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "falldownthesystem-converse",
+    "name": "converse",
+    "description": "Converse MCP Server",
+    "url": "https://github.com/FallDownTheSystem/converse",
+    "tags": [
+      "GitHub",
+      "ai",
+      "llm",
+      "mcp",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "louiseriksson239-magg",
+    "name": "magg",
+    "description": "Magg: The MCP Aggregator",
+    "url": "https://github.com/louiseriksson239/magg",
+    "tags": [
+      "GitHub",
+      "aggregator",
+      "ai",
+      "docker",
+      "docker-compose"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "dawid6614-cloakbrowser-mcp",
+    "name": "cloakbrowser-mcp",
+    "description": "⚡ CloakBrowser MCP server for AI agents: Playwright-powered browsing, clean tool forwarding, Docker support, and multi-session HTTP transport.",
+    "url": "https://github.com/dawid6614/cloakbrowser-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "chromium"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "hinatatrivedi-cloakbrowser-mcp",
+    "name": "cloakbrowser-mcp",
+    "description": "⚡ CloakBrowser MCP server for AI agents: Playwright-powered browsing, clean tool forwarding, Docker support, and multi-session HTTP transport.",
+    "url": "https://github.com/HinataTrivedi/cloakbrowser-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "chromium"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "pedrotrinh-magg",
+    "name": "magg",
+    "description": "Magg: The MCP Aggregator",
+    "url": "https://github.com/pedrotrinh/magg",
+    "tags": [
+      "GitHub",
+      "aggregator",
+      "ai",
+      "docker",
+      "docker-compose"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "tatyana892-cli",
+    "name": "cli",
+    "description": "Fine-grained control over model context protocol (MCP) clients, servers, and tools. Context is God.",
+    "url": "https://github.com/tatyana892/cli",
+    "tags": [
+      "GitHub",
+      "mcp",
+      "mcp-admin",
+      "mcp-analytics",
+      "mcp-client"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "sylvies40-magg",
+    "name": "magg",
+    "description": "Magg: The MCP Aggregator",
+    "url": "https://github.com/Sylvies40/magg",
+    "tags": [
+      "GitHub",
+      "aggregator",
+      "ai",
+      "docker",
+      "docker-compose"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "dishant27-twitter-mcp",
+    "name": "twitter-mcp",
+    "description": "Model Context Protocol server for Twitter integration. can be used to perform CRUD like operations using the twitter API in the background",
+    "url": "https://github.com/Dishant27/twitter-mcp",
+    "tags": [
+      "GitHub",
+      "ai",
+      "claude",
+      "mcp-server",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "giauphan-codeatlas-mcp-server",
+    "name": "codeatlas-mcp-server",
+    "description": "Local-first MCP server for AI-powered codebase intelligence — AST analysis, dependency graphs, and semantic search. Your source code never leaves your machine.",
+    "url": "https://github.com/giauphan/codeatlas-mcp-server",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "ai",
+      "ast",
+      "claude"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "agentsafe-ai-tooltrust-directory",
+    "name": "tooltrust-directory",
+    "description": "Trust layer for AI Agents. A curated registry of secure tools and MCP servers with A-F risk grading.",
+    "url": "https://github.com/AgentSafe-AI/tooltrust-directory",
+    "tags": [
+      "GitHub",
+      "agent-safety",
+      "ai-security",
+      "mcp",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "containers-kubernetes-mcp-server",
+    "name": "kubernetes-mcp-server",
+    "description": "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
+    "url": "https://github.com/containers/kubernetes-mcp-server",
+    "tags": [
+      "GitHub",
+      "containers",
+      "context",
+      "kubernetes",
+      "kubernetes-mcp"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "quantumwoof-nairahome-mcp",
+    "name": "nairahome-mcp",
+    "description": "NairaHome: Alexa+ MCP server (spec 2025-11-25, Streamable HTTP) that remembers the family you support in Nigeria, prices transfers against the live naira rate, and plans each month's money home.",
+    "url": "https://github.com/Quantumwoof/nairahome-mcp",
+    "tags": [
+      "GitHub",
+      "alexa",
+      "mcp",
+      "mcp-apps",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "orellbuehler-kerf",
+    "name": "kerf",
+    "description": "AI-assisted video & audio editor — Rust + Tauri, with an MCP server that lets Claude cut and assemble your footage.",
+    "url": "https://github.com/OrellBuehler/kerf",
+    "tags": [
+      "GitHub",
+      "ai",
+      "ai-video-editing",
+      "claude",
+      "desktop-app"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "tanar-tech-hanamask",
+    "name": "hanamask",
+    "description": "Local-first note-taking for AI agents — a desktop app with a built-in MCP server, so Claude Code and other agents read and write your notes directly. Task management included. No cloud, no sync.",
+    "url": "https://github.com/Tanar-tech/hanamask",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "electron",
+      "local-first",
+      "mcp"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "thx93-mcp-weather-server",
+    "name": "mcp-weather-server",
+    "description": "An MCP server for weather information.",
+    "url": "https://github.com/Thx93/mcp-weather-server",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "983033995-web-ai-mcp",
+    "name": "web-ai-mcp",
+    "description": "Local stdio MCP server for your own DeepSeek Web conversations: chat, thinking, allowlisted file analysis, and persistent sessions.",
+    "url": "https://github.com/983033995/web-ai-mcp",
+    "tags": [
+      "GitHub",
+      "claude-code",
+      "codex",
+      "deepseek",
+      "deepseek-web"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "mrsergeiluzhnov-xonta",
+    "name": "xonta",
+    "description": "Open trust infrastructure for AI agents. Xonta Gate puts limits, checks and a signed audit log in front of any MCP server / Открытая инфраструктура доверия для ИИ-агентов",
+    "url": "https://github.com/mrsergeiluzhnov/xonta",
+    "tags": [
+      "GitHub",
+      "agent-security",
+      "ai-agents",
+      "ai-safety",
+      "llm"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "pantelisgeorgiadis-dicomweb-mcp-server",
+    "name": "dicomweb-mcp-server",
+    "description": "DICOMweb Model Context Protocol (MCP) server implementation",
+    "url": "https://github.com/PantelisGeorgiadis/dicomweb-mcp-server",
+    "tags": [
+      "GitHub",
+      "dicom",
+      "dicomweb",
+      "mcp"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "rmednitzer-relay-shell",
+    "name": "relay-shell",
+    "description": "Model Context Protocol server for full shell and SSH fleet operation, with audit, tiered authority, and resource bounds",
+    "url": "https://github.com/rmednitzer/relay-shell",
+    "tags": [
+      "GitHub",
+      "asyncssh",
+      "automation",
+      "devops",
+      "mcp"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "cbcoutinho-nextcloud-mcp-server",
+    "name": "nextcloud-mcp-server",
+    "description": "Nextcloud MCP Server",
+    "url": "https://github.com/cbcoutinho/nextcloud-mcp-server",
+    "tags": [
+      "GitHub",
+      "mcp-server",
+      "model-context-protocol",
+      "nextcloud",
+      "nextcloud-deck"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "olostep-olostep-mcp-server",
+    "name": "olostep-mcp-server",
+    "description": "MCP server for Olostep — the web scraping, crawling, and search infrastructure used by top AI companies. Gives any MCP-compatible AI agent the ability to scrape, crawl, batch-extract, and search the web in real time.",
+    "url": "https://github.com/olostep/olostep-mcp-server",
+    "tags": [
+      "GitHub",
+      "ai",
+      "ai-agent",
+      "data-collection",
+      "llm-tools"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "eater2-ai-agents-api-library",
+    "name": "ai_agents_api_library",
+    "description": "Verified catalog of 300+ APIs and MCP servers with opinions and statistics so that AI agents can call after a one-time API key/OAuth setup. JSON, llms.txt and an MCP server for agents.",
+    "url": "https://github.com/eater2/ai_agents_api_library",
+    "tags": [
+      "GitHub",
+      "agent-tools",
+      "ai-agents",
+      "api-catalog",
+      "api-directory"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "germaniu-ga4-seo-mcp",
+    "name": "ga4-seo-mcp",
+    "description": "MCP server for Google Analytics 4 + Search Console: plan and apply a site's measurement (property, key events, DNS verification, sitemap) — read-only by default.",
+    "url": "https://github.com/GermaniU/ga4-seo-mcp",
+    "tags": [
+      "GitHub",
+      "core-web-vitals",
+      "fastmcp",
+      "ga4",
+      "google-analytics"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "chedong-phpman",
+    "name": "phpman",
+    "description": "php manual: Man Page / Perldoc / Info / Pydoc / Ri Page Web Interface  with JSON Markdown & MCP Server",
+    "url": "https://github.com/chedong/phpman",
+    "tags": [
+      "GitHub",
+      "json-api",
+      "linux-commands",
+      "linux-man-pages",
+      "markdown"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "joaquinbejar-ai-crew-sync",
+    "name": "ai-crew-sync",
+    "description": "Coordination bus for teams of AI coding agents — Claude Code, Codex, Cursor or any MCP client — sharing messages, tasks, presence, notes and locks over one server backed by Postgres",
+    "url": "https://github.com/joaquinbejar/ai-crew-sync",
+    "tags": [
+      "GitHub",
+      "agent-coordination",
+      "ai-agents",
+      "claude",
+      "claude-code"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "frowningdev-django-orm-lens",
+    "name": "django-orm-lens",
+    "description": "Django ER diagrams, N+1 detection, schema drift & migration-risk linting — in VS Code, a CLI and an MCP server. Static analysis: no database, no django.setup(). Free & MIT.",
+    "url": "https://github.com/FROWNINGdev/django-orm-lens",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "aider",
+      "code-navigation",
+      "cursor"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "zzet-gortex",
+    "name": "gortex",
+    "description": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d",
+    "url": "https://github.com/zzet/gortex",
+    "tags": [
+      "GitHub",
+      "ai-tools",
+      "antigravity",
+      "claude-code",
+      "code-analysis"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "tonywang-hub-mcp-cn-commerce",
+    "name": "mcp-cn-commerce",
+    "description": "中国电商 MCP 连接器：8 个平台、155 个已注册工具。开源标准版，含能力矩阵与实际工程验收记录；真实商家联调状态逐项公开。Chinese commerce MCP connectors with documented capabilities and validation status.",
+    "url": "https://github.com/TonyWang-hub/mcp-cn-commerce",
+    "tags": [
+      "GitHub",
+      "agent-tool",
+      "ai-agent",
+      "ai-tools",
+      "business-data"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "ashlrai-phantom-secrets",
+    "name": "phantom-secrets",
+    "description": "Stop AI coding agents from leaking your API keys. Local proxy + MCP that swaps real secrets for phm_ tokens — works with Claude Code, Cursor, Windsurf, and Codex.",
+    "url": "https://github.com/ashlrai/phantom-secrets",
+    "tags": [
+      "GitHub",
+      "ai",
+      "ai-safety",
+      "api-keys",
+      "api-security"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "jau123-meigen-ai-design-mcp",
+    "name": "MeiGen-AI-Design-MCP",
+    "description": "Discover inspiration and create images and videos with the latest AI models. Works with ChatGPT, Claude, Cursor, and other MCP clients.",
+    "url": "https://github.com/jau123/MeiGen-AI-Design-MCP",
+    "tags": [
+      "GitHub",
+      "ai-image-generation",
+      "chatgpt",
+      "claude",
+      "codex"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "hproxy-com-free-proxy-list",
+    "name": "free-proxy-list",
+    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.",
+    "url": "https://github.com/hproxy-com/free-proxy-list",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "anonymous-proxy",
+      "free-proxies",
+      "free-proxy"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "n8n-io-n8n",
+    "name": "n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "url": "https://github.com/n8n-io/n8n",
+    "tags": [
+      "GitHub",
+      "ai",
+      "apis",
+      "automation",
+      "cli"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "longsizhuo-openinvest",
+    "name": "openInvest",
+    "description": "Research-grade investment decision engine for AI agents: isolated multi-agent committee, auditable verdicts, backtests with lookahead protection, published negative results",
+    "url": "https://github.com/longsizhuo/openInvest",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "algorithmic-trading",
+      "claude",
+      "claude-code-plugin"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "helpcode-ai-anythingmcp",
+    "name": "anythingmcp",
+    "description": "MCP gateway for AI agents: turn any REST/OpenAPI, GraphQL, SOAP or SQL API into MCP tools. 486 ready-made connectors (SAP, ERP, e-commerce) with RBAC, SSO, audit logs and a knowledge graph.",
+    "url": "https://github.com/HelpCode-ai/anythingmcp",
+    "tags": [
+      "GitHub",
+      "agents",
+      "ai-agents",
+      "ai-gateway",
+      "api-gateway"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "trip2g-trip2g",
+    "name": "trip2g",
+    "description": "Open-source MCP knowledge mesh - self-host your second brain, expose it to AI agents, federate with peers.",
+    "url": "https://github.com/trip2g/trip2g",
+    "tags": [
+      "GitHub",
+      "ai-agent-memory",
+      "cms",
+      "digital-garden",
+      "golang"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "mikek184-recollect",
+    "name": "Recollect",
+    "description": "Self-hosted AI memory and MCP coordination for coding agents. Persistent context across repositories and sessions, with knowledge graphs, hybrid search, and a desktop web UI. Built in Rust for Codex and Claude Code.",
+    "url": "https://github.com/MikeK184/Recollect",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "ai-agents",
+      "ai-memory",
+      "claude-code"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "yuxinlaile-mcd-saver",
+    "name": "McD-saver",
+    "description": "🍟 麦麦省钱助手 —— 基于麦当劳中国官方 MCP 的省钱点餐 Agent Skill：省钱四步检查 + 一键领券 + 券组合优化（预算/热量约束）+ 沉默成本体检 + 全渠道比价。社区开源，免登录在线试算 👇",
+    "url": "https://github.com/yuxinlaile/McD-saver",
+    "tags": [
+      "GitHub",
+      "agent-skill",
+      "claude-skill",
+      "cli-tool",
+      "coupon"
+    ],
+    "updatedAt": "2026-10-19"
+  },
+  {
+    "id": "koala73-worldmonitor",
+    "name": "worldmonitor",
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "url": "https://github.com/koala73/worldmonitor",
+    "tags": [
+      "GitHub",
+      "agent",
+      "ai",
+      "dashboard",
+      "geopolitics"
+    ],
+    "updatedAt": "2026-10-19"
+  }
+]
