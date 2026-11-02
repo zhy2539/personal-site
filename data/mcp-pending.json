@@ -1,1 +1,556 @@
-[]
+[
+  {
+    "id": "giauphan-codeatlas-platform",
+    "name": "codeatlas-platform",
+    "description": "AI-powered codebase intelligence platform — MCP Server, AST analysis, Knowledge Graph, and semantic memory with  SQLite + sqlite-vec. Analyze any codebase in minutes.",
+    "url": "https://github.com/giauphan/codeatlas-platform",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "ai",
+      "ast",
+      "code-analysis"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "amio242-mcp-memory-server",
+    "name": "mcp-memory-server",
+    "description": "Persistent Shared Memory Server for AI Agents via MCP",
+    "url": "https://github.com/Amio242/mcp-memory-server",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "ai-memory",
+      "anthropic",
+      "chatgpt"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "brightdata-brightdata-mcp",
+    "name": "brightdata-mcp",
+    "description": "A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access.",
+    "url": "https://github.com/brightdata/brightdata-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "ai-integrations",
+      "anti-bot-detection",
+      "browser-automation"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "dmontgomery40-mcp-3d-printer-server",
+    "name": "mcp-3D-printer-server",
+    "description": "Connects MCP to major 3D printer APIs (Orca, FULU's Orca/Bambu, OctoPrint, Klipper, Duet, Repetier, Prusa, Creality). Control prints, monitor status, and perform advanced STL operations like scaling, rotation, sectional editing, and base extension. Includes slicing and visualization.",
+    "url": "https://github.com/DMontgomery40/mcp-3D-printer-server",
+    "tags": [
+      "GitHub",
+      "3d-printing",
+      "3mf",
+      "bambu-lab",
+      "bambu-studio"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "dmontgomery40-bambu-printer-mcp",
+    "name": "bambu-printer-mcp",
+    "description": "MCP server for Bambu Lab 3D printers — STL manipulation, BambuStudio  or FULU/orca slicing, Blender MCP integration, and direct printer control",
+    "url": "https://github.com/DMontgomery40/bambu-printer-mcp",
+    "tags": [
+      "GitHub",
+      "3d-printing",
+      "3js",
+      "3mf",
+      "bambu-cli"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "nanbingxyz-mcpsvr",
+    "name": "mcpsvr",
+    "description": "Discover Exceptional MCP Servers",
+    "url": "https://github.com/nanbingxyz/mcpsvr",
+    "tags": [
+      "GitHub",
+      "mcp-server",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "lm203688-healthlens",
+    "name": "healthlens",
+    "description": "HealthLens — 中西医融合健康管理平台 + MCP server (healthlens-mcp). HTTP endpoint https://healthlens.cc/api/v1/mcp",
+    "url": "https://github.com/lm203688/healthlens",
+    "tags": [
+      "GitHub",
+      "fastapi",
+      "health",
+      "healthcare-ai",
+      "mcp"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "mcpjam-inspector",
+    "name": "inspector",
+    "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+    "url": "https://github.com/MCPJam/inspector",
+    "tags": [
+      "GitHub",
+      "anthropic",
+      "chatgpt",
+      "cicd",
+      "debugger"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "containers-kubernetes-mcp-server",
+    "name": "kubernetes-mcp-server",
+    "description": "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
+    "url": "https://github.com/containers/kubernetes-mcp-server",
+    "tags": [
+      "GitHub",
+      "containers",
+      "context",
+      "kubernetes",
+      "kubernetes-mcp"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "signal8ai-signal8-mcp",
+    "name": "signal8-mcp",
+    "description": "Signal8 MCP Server - SEC filing intelligence for AI agents",
+    "url": "https://github.com/signal8ai/signal8-mcp",
+    "tags": [
+      "GitHub",
+      "claude",
+      "finance",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "modelcontextprotocol-csharp-sdk",
+    "name": "csharp-sdk",
+    "description": "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.",
+    "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+    "tags": [
+      "GitHub",
+      "csharp",
+      "dotnet",
+      "mcp",
+      "mcp-client"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "shoka-jp-obd2-mcp",
+    "name": "obd2-mcp",
+    "description": "MCP server: let AI assistants read your car via ELM327 - DTCs, live data, freeze frame, VIN. Mock vehicle included, no hardware needed.",
+    "url": "https://github.com/shoka-jp/obd2-mcp",
+    "tags": [
+      "GitHub",
+      "ai",
+      "automotive",
+      "car",
+      "claude"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "opensolon-solon-ai",
+    "name": "solon-ai",
+    "description": "Java AI application development framework (supports LLM-tool,skill; RAG; MCP; Agent-ReAct,Team-Agent). Compatible with java8 ~ java26. It can also be embedded in SpringBoot, jFinal, Vert.x, Quarkus, and other frameworks.",
+    "url": "https://github.com/opensolon/solon-ai",
+    "tags": [
+      "GitHub",
+      "ai",
+      "chat",
+      "deepseek",
+      "embedding"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "agentsafe-ai-tooltrust-directory",
+    "name": "tooltrust-directory",
+    "description": "Trust layer for AI Agents. A curated registry of secure tools and MCP servers with A-F risk grading.",
+    "url": "https://github.com/AgentSafe-AI/tooltrust-directory",
+    "tags": [
+      "GitHub",
+      "agent-safety",
+      "ai-security",
+      "mcp",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "microsoft-mcp-for-beginners",
+    "name": "mcp-for-beginners",
+    "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+    "url": "https://github.com/microsoft/mcp-for-beginners",
+    "tags": [
+      "GitHub",
+      "csharp",
+      "java",
+      "javascript",
+      "javascript-applications"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "kfireliyahu-emerald-emd",
+    "name": "emerald-emd",
+    "description": "The database under the chat: a local, file-based database you and an AI model fill together, where every table has real types and real checks. Desktop app and MCP server. No server, no account.",
+    "url": "https://github.com/kfireliyahu/emerald-emd",
+    "tags": [
+      "GitHub",
+      "database",
+      "desktop-app",
+      "electron",
+      "local-first"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "writerslogic-scrivener-mcp",
+    "name": "scrivener-mcp",
+    "description": "The definitive MCP server for Scrivener — connect your novels, screenplays, and manuscripts to Claude, ChatGPT, and any AI assistant. 53 tools: document management, writing analysis, content enhancement, offline semantic search, and character/plot tracking.",
+    "url": "https://github.com/writerslogic/scrivener-mcp",
+    "tags": [
+      "GitHub",
+      "ai-writing",
+      "chatgpt",
+      "claude",
+      "content-analysis"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "cfgaudit-cfgaudit",
+    "name": "cfgaudit",
+    "description": "Static security auditor for AI-agent configuration: Claude Code, MCP servers, Cursor, Codex, Copilot, Gemini CLI and more. 116 rules, SARIF output, OWASP LLM Top 10 mapping.",
+    "url": "https://github.com/cfgaudit/cfgaudit",
+    "tags": [
+      "GitHub",
+      "agent-security",
+      "agentic-ai",
+      "ai-agents",
+      "ai-security"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "cartagogit-delendai",
+    "name": "DelendAI",
+    "description": "Extensible MCP server core and CLI plugin tooling.",
+    "url": "https://github.com/CartagoGit/DelendAI",
+    "tags": [
+      "GitHub",
+      "bun",
+      "developer-tools",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "openhoat-joplin-mcp",
+    "name": "joplin-mcp",
+    "description": "MCP server for Joplin: 37 tools over the Model Context Protocol, reading and writing the Joplin Server database the way a desktop client does.",
+    "url": "https://github.com/openhoat/joplin-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "joplin",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "helpcode-ai-anythingmcp",
+    "name": "anythingmcp",
+    "description": "Self-hosted MCP gateway and company brain for AI agents: connect Claude, ChatGPT and Copilot to your ERP, APIs, databases and file servers, with company memory, skills, knowledge graph, SSO/RBAC and audit. 691 connectors (SAP, Odoo, SQL…). Open source, EU cloud.",
+    "url": "https://github.com/HelpCode-ai/anythingmcp",
+    "tags": [
+      "GitHub",
+      "ai-memory",
+      "claude",
+      "code-execution",
+      "company-brain"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "lacryptorina-vedetta-mcp",
+    "name": "vedetta-mcp",
+    "description": "Pay-per-call crypto sentiment and divergence MCP server. x402 USDC on Base. Descriptive market analysis only — not financial advice.",
+    "url": "https://github.com/lacryptorina/vedetta-mcp",
+    "tags": [
+      "GitHub",
+      "agents",
+      "base",
+      "crypto",
+      "gemini-cli-extension"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "ggange-mcp-review",
+    "name": "mcp-review",
+    "description": "Open-source repository for discovering and rating MCP (Model Context Protocol) servers",
+    "url": "https://github.com/ggange/mcp-review",
+    "tags": [
+      "GitHub"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "jsilvanus-farcmd-mcp",
+    "name": "farcmd-mcp",
+    "description": "OAuth-protected MCP server for predefined SSH commands: risk levels, human approval, integrity verification and audit log.",
+    "url": "https://github.com/jsilvanus/farcmd-mcp",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "audit-log",
+      "automation",
+      "devops"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "ritualdev-lab-mcp-builder-kit",
+    "name": "mcp-builder-kit",
+    "description": "Production Toolkit & Scaffolding Engine for Model Context Protocol (MCP) Servers. Scaffold typed TS/Python servers, generate tools from OpenAPI, inspect conformance, audit security & containerize in seconds.",
+    "url": "https://github.com/RitualDev-Lab/mcp-builder-kit",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "antigravity",
+      "antigravity-skills",
+      "claude"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "conv2pdf-mcp",
+    "name": "mcp",
+    "description": "Official MCP server for the conv2pdf API: an AI assistant converts Office documents, images and e-books to PDF, and merges, compresses or protects the PDFs of your computer. Hosted in the EU (France).",
+    "url": "https://github.com/conv2pdf/mcp",
+    "tags": [
+      "GitHub",
+      "agent-skills",
+      "claude-code-plugin",
+      "claude-skills",
+      "conv2pdf"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "ogasurfproject-jpg-horizon-shield",
+    "name": "horizon-shield",
+    "description": "NENRIN: tree rings for AI facing services. Bitcoin-anchored public ledger, open witnessing, and an MCP server for verifiable Japanese construction estimates. The operator cannot delete a valid record.",
+    "url": "https://github.com/ogasurfproject-jpg/horizon-shield",
+    "tags": [
+      "GitHub",
+      "a2a",
+      "ai-agents",
+      "bitcoin",
+      "gemini-cli-extension"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "sidd27-infrawise",
+    "name": "infrawise",
+    "description": "MCP server for AWS infrastructure analysis — DynamoDB, Lambda, SQS, SNS, S3, API Gateway, PostgreSQL, MySQL, MongoDB, Kafka & IaC drift. Works with Claude Code, Cursor, and GitHub Copilot.",
+    "url": "https://github.com/Sidd27/infrawise",
+    "tags": [
+      "GitHub",
+      "ai-tools",
+      "aws",
+      "claude-code",
+      "cursor"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "reowens-qsys-tools",
+    "name": "qsys-tools",
+    "description": "Control QSC Q-SYS AV systems over the QRC protocol — CLI, TypeScript client, MCP server for AI agents, and a notarized Q-SYS Designer-on-Mac app. Zero QSC code; works against a real Core or Designer Emulate mode.",
+    "url": "https://github.com/reowens/qsys-tools",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "audio",
+      "audiovisual",
+      "claude"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "kuhumcst-dannet",
+    "name": "DanNet",
+    "description": "The Danish WordNet.",
+    "url": "https://github.com/kuhumcst/DanNet",
+    "tags": [
+      "GitHub",
+      "apache-jena",
+      "csvw",
+      "danish",
+      "dmlex"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "jamdotdev-skills",
+    "name": "skills",
+    "description": "Agent skills that make coding agents show their work: read a Jam, prove a change, point at the problem, test a flow. Works with Claude Code, Cursor, Codex, Copilot and Gemini CLI.",
+    "url": "https://github.com/jamdotdev/skills",
+    "tags": [
+      "GitHub",
+      "agent-skills",
+      "ai-agents",
+      "bug-reports",
+      "claude-code"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "n8n-io-n8n",
+    "name": "n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "url": "https://github.com/n8n-io/n8n",
+    "tags": [
+      "GitHub",
+      "ai",
+      "apis",
+      "automation",
+      "cli"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "polterguy-magic",
+    "name": "magic",
+    "description": "Instant SECURE Full Stack Apps and AI Agents",
+    "url": "https://github.com/polterguy/magic",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "ai",
+      "ai-agents",
+      "backend"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "vladimir-human-ru-marketplace-mcp",
+    "name": "ru-marketplace-mcp",
+    "description": "Одиннадцать маркетплейсов и недвижимость Циан как MCP-серверы: Wildberries, Ozon, Яндекс Маркет, Детский мир, Авито, AliExpress, Taobao, Мегамаркет, Lamoda, DNS, Ситилинк, Циан. Плюс сравнение цен по всем товарным источникам одним вызовом. Только чтение, ключи не нужны.",
+    "url": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
+    "tags": [
+      "GitHub",
+      "aliexpress",
+      "avito",
+      "cian",
+      "citilink"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "chunkhound-chunkhound",
+    "name": "chunkhound",
+    "description": "Your entire engineering context, deeply understood",
+    "url": "https://github.com/chunkhound/chunkhound",
+    "tags": [
+      "GitHub",
+      "agent",
+      "ai",
+      "duckdb",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "hproxy-com-free-proxy-list",
+    "name": "free-proxy-list",
+    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.",
+    "url": "https://github.com/hproxy-com/free-proxy-list",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "anonymous-proxy",
+      "free-proxies",
+      "free-proxy"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "afu-it-mpg",
+    "name": "mpg",
+    "description": "Compare fees of 81 Malaysian payment gateways (FPX, card, e-wallet, DuitNow QR, BNPL), straight from official pricing pages. Free JSON API and MCP server.",
+    "url": "https://github.com/afu-it/mpg",
+    "tags": [
+      "GitHub",
+      "astro",
+      "bnpl",
+      "duitnow",
+      "ewallet"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "cuipengdba-agentsql",
+    "name": "agentsql",
+    "description": "AgentSQL: Apache-2.0 database security gateway and native data Q&A. Secure SQLBot integrations or use AgentSQL's own Q&A UI.",
+    "url": "https://github.com/cuipengdba/agentsql",
+    "tags": [
+      "GitHub",
+      "ai-agent",
+      "data-masking",
+      "database-security",
+      "mcp"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "upstash-context7",
+    "name": "context7",
+    "description": "Context7 Platform -- Up-to-date docs for AI agents",
+    "url": "https://github.com/upstash/context7",
+    "tags": [
+      "GitHub",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "vibe-coding"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "doobidoo-mcp-memory-service",
+    "name": "mcp-memory-service",
+    "description": "Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Claude. REST API + knowledge graph + autonomous consolidation.",
+    "url": "https://github.com/doobidoo/mcp-memory-service",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "agentic-ai",
+      "ai-agents",
+      "autogen"
+    ],
+    "updatedAt": "2026-11-02"
+  }
+]
