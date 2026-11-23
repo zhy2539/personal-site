@@ -1,1 +1,777 @@
-[]
+[
+  {
+    "id": "pautthead-awesome-design-stack",
+    "name": "awesome-design-stack",
+    "description": "Curated design stack for web & app builders: inspiration, design systems, AI agent skills (Claude, Cursor, opencode), UI libraries, color, type, icons. EN/ES, links checked weekly.",
+    "url": "https://github.com/Pautthead/awesome-design-stack",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "jackyzhang69-plugins",
+    "name": "plugins",
+    "description": "Official Jacky plugins for Agent Skills–compatible agents (Claude Code, Codex, Cherry Studio, Cursor, and peers).",
+    "url": "https://github.com/jackyzhang69/plugins",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "automation",
+      "immigration",
+      "immigration-tech"
+    ],
+    "updatedAt": "2026-11-11"
+  },
+  {
+    "id": "extensiondev-skill",
+    "name": "skill",
+    "description": "The Agent Skill for cross-browser extension development. Teaches AI coding agents to build, debug, and publish for Chrome, Edge, Firefox, Safari, and every Chromium- or Gecko-based browser.",
+    "url": "https://github.com/extensiondev/skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "agent-skills",
+      "ai-agent"
+    ],
+    "updatedAt": "2026-11-21"
+  },
+  {
+    "id": "kheif-quiver",
+    "name": "quiver",
+    "description": "Skill manager for AI coding assistants: one library of agent skills, served over MCP to Claude Code, Codex, Cursor and others, in layers, with always-on skills in every session.",
+    "url": "https://github.com/kheif/quiver",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-coding-assistant"
+    ],
+    "updatedAt": "2026-11-21"
+  },
+  {
+    "id": "venomlabs-dev-plugin",
+    "name": "plugin",
+    "description": "Venom AI by Venom Labs: make the coding agents your team already uses multiplayer. The Venom MCP plugin connects Claude Code, Codex, Cursor and Gemini CLI so they share tasks, decisions, skills and tools.",
+    "url": "https://github.com/venomlabs-dev/plugin",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-collaboration",
+      "agent-skills",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-11-16"
+  },
+  {
+    "id": "yanqingcheng-grokbot-actually-good-qa-tester",
+    "name": "grokbot-actually-good-qa-tester",
+    "description": "Actually Good QA Tester (Grok Bot) — portable exploratory QA tester skills, SKILL.md packs for Cursor and other agents",
+    "url": "https://github.com/yanqingcheng/grokbot-actually-good-qa-tester",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-11-05"
+  },
+  {
+    "id": "othmanadi-planning-with-files",
+    "name": "planning-with-files",
+    "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
+    "url": "https://github.com/OthmanAdi/planning-with-files",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "autonomous-agents",
+      "claude"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "seaison-ember-pixel",
+    "name": "ember-pixel",
+    "description": "黑底、橙光、点阵的通用 UI 设计系统与 Agent Skill（MIT）。Doto + Silkscreen + Fusion Pixel / 0 圆角 / 8px 网格 / 数据可视化。",
+    "url": "https://github.com/seaison/ember-pixel",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "claude-code"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "id": "hqzhon-agent-skills-wiki",
+    "name": "agent-skills-wiki",
+    "description": "Hand-picked, installable agent skills (SKILL.md) for Claude Code, Codex, Cursor & Gemini CLI — mined from X 3× daily, 240+ and growing. | 从 X 每天三次挖掘、人工筛选的优质 Agent Skills，每条附场景、安装方式和原帖。",
+    "url": "https://github.com/hqzhon/agent-skills-wiki",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-tools"
+    ],
+    "updatedAt": "2026-11-14"
+  },
+  {
+    "id": "locize-locize-agents",
+    "name": "locize-agents",
+    "description": "Locize plugin for AI coding agents: i18next localization skill, translation conventions and the Locize MCP server (Claude Code, Copilot CLI, Gemini CLI, Cursor)",
+    "url": "https://github.com/locize/locize-agents",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "claude-code-plugin",
+      "gemini-cli-extension"
+    ],
+    "updatedAt": "2026-11-16"
+  },
+  {
+    "id": "mostra-dev-mostra-plugin",
+    "name": "mostra-plugin",
+    "description": "Mostra for coding agents: the Agent Skill and plugin for Claude Code, Codex, Copilot, Cursor, Gemini CLI and other harnesses. Built and released from mostra-dev/mostra.",
+    "url": "https://github.com/mostra-dev/mostra-plugin",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "volcengine-volcengine-agent-toolkit",
+    "name": "volcengine-agent-toolkit",
+    "description": "Volcengine skills and plugins for AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, OpenCode): manage cloud resources via the `ve` CLI, search official docs, troubleshoot, and install product-domain skills on demand.",
+    "url": "https://github.com/volcengine/volcengine-agent-toolkit",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agent",
+      "ai-skills"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "zivex-software-zivex-skills",
+    "name": "zivex-skills",
+    "description": "Install AI-agent skills, rules, hooks and subagents for .NET modular monoliths into Claude Code, Cursor and Codex",
+    "url": "https://github.com/Zivex-Software/zivex-skills",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "thitinan147-jtek-skill",
+    "name": "jtek-skill",
+    "description": "Agent Skills for the inner loop of a coding agent: one ticket, one worktree, the project's own checks, a verdict from a second session, and a pull request with evidence. The board is a Notion database. A human merges.",
+    "url": "https://github.com/thitinan147/jtek-skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "claude-code",
+      "codex"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "id": "akzar1el-god-prompt",
+    "name": "god-prompt",
+    "description": "GodPrompt — a universal AI coding system prompt and Agent Skill for Codex, Claude Code, ChatGPT, Cursor and coding agents, with TDD, debugging and verification gates.",
+    "url": "https://github.com/AKzar1el/god-prompt",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-agent",
+      "ai-prompts",
+      "anthropic"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "alivirgo-major-ai-skills",
+    "name": "Major-AI-Skills",
+    "description": "Installable agentic skills (SKILL.md) for Claude Code, Cursor, Codex, Gemini & Antigravity — 292+ product, efficiency, and common-sense skills. npx major-ai-skills",
+    "url": "https://github.com/alivirgo/Major-AI-Skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "agentic-skills",
+      "ai-agent-skills"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "id": "hotskillsdev-awesome-agent-skills",
+    "name": "awesome-agent-skills",
+    "description": "An awesome list of agent skills (SKILL.md) for Claude Code, Codex, Cursor, Gemini CLI and more, updated every day and ranked by real growth on HotSkills.dev.",
+    "url": "https://github.com/hotskillsdev/awesome-agent-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agent-skills",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-11-21"
+  },
+  {
+    "id": "vorivant-shopify-theme-check-fix-skill",
+    "name": "shopify-theme-check-fix-skill",
+    "description": "Agent skill (SKILL.md) for Claude Code; should also load in Cursor per Cursor's docs (not yet run there). Runs Shopify Theme Check on a Liquid theme, fixes the safe offenses with minimal diffs and lists the risky ones for you to decide. Free, MIT, no scripts. Independent project, not affiliated with Shopify, Anthropic or Cursor.",
+    "url": "https://github.com/Vorivant/shopify-theme-check-fix-skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "claude-code"
+    ],
+    "updatedAt": "2026-11-17"
+  },
+  {
+    "id": "zaynelovecraft-yt-skill-mcp",
+    "name": "yt-skill-mcp",
+    "description": "MCP server & CLI that extracts YouTube transcripts and compiles them into structured Cursor SKILL.md workflows",
+    "url": "https://github.com/zaynelovecraft/yt-skill-mcp",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-agents",
+      "cursor",
+      "mcp"
+    ],
+    "updatedAt": "2026-11-01"
+  },
+  {
+    "id": "mxyhi-ok-skills",
+    "name": "ok-skills",
+    "description": "Curated AI coding agent skills and AGENTS.md playbooks for Codex, Claude Code, Cursor, OpenClaw, and other SKILL.md-compatible tools.",
+    "url": "https://github.com/mxyhi/ok-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "agents-md",
+      "ai"
+    ],
+    "updatedAt": "2026-11-22"
+  },
+  {
+    "id": "raveendi-skilloadout",
+    "name": "Skilloadout",
+    "description": "12,000+ AI agent skills (SKILL.md) for Claude Code, Codex, Cursor, Gemini CLI & Copilot — license-checked, safety-scanned, auto-updated every Friday. Use it as a Claude Code plugin marketplace or an MCP server.",
+    "url": "https://github.com/RaveenDi/Skilloadout",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-coding"
+    ],
+    "updatedAt": "2026-11-06"
+  },
+  {
+    "id": "nguyentan510-project-os",
+    "name": "project-os",
+    "description": "Quy tắc triển khai dự án cho solo dev + nhiều AI (Claude Code, Codex, Antigravity, Cursor): skill SKILL.md + khung Ngày 0, mã xuyên suốt, 8 luật cứng do máy chặn. Cài: npx -y @nguyentan0510/project-os",
+    "url": "https://github.com/nguyentan510/project-os",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-coding"
+    ],
+    "updatedAt": "2026-11-10"
+  },
+  {
+    "id": "ces107-agent-forge",
+    "name": "agent-forge",
+    "description": "Free agent skills and Claude Code plugins: launch-check (pre-launch audit of any URL: exposed keys, open database, SEO, phone design) and done-gate (no \"done\" until the tests pass). SKILL.md format for Claude Code, Codex, Cursor and Copilot.",
+    "url": "https://github.com/Ces107/agent-forge",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "agent-skills",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-10-23"
+  },
+  {
+    "id": "erfnzdeh-arvancloud-agent-skill",
+    "name": "arvancloud-agent-skill",
+    "description": "Unofficial Agent Skill for Claude Code and other SKILL.md-compatible agents, driving ArvanCloud's APIs (CDN, DNS, IaaS, Object Storage, Edge, CaaS, VOD/Live/Video Ads) and Let's Encrypt DNS-01 certs via acme.sh.",
+    "url": "https://github.com/erfnzdeh/arvancloud-agent-skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "acme-sh",
+      "agent-skill",
+      "agent-skills"
+    ],
+    "updatedAt": "2026-11-05"
+  },
+  {
+    "id": "cheng-liang1-badass-skills",
+    "name": "badass-skills",
+    "description": "Daily production-grade Agent Skills for OpenAI Codex, Claude Code, Cursor, GitHub Copilot and SKILL.md-compatible AI coding agents. 中英双语。",
+    "url": "https://github.com/CHENG-LIANG1/badass-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "agent-skills",
+      "agentic-workflows"
+    ],
+    "updatedAt": "2026-09-01"
+  },
+  {
+    "id": "frankhildebrandt-cursor-skills",
+    "name": "cursor-skills",
+    "description": "Personal Cursor Agent Skills — reusable SKILL.md workflows",
+    "url": "https://github.com/frankhildebrandt/cursor-skills",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-08-13"
+  },
+  {
+    "id": "seb1n-awesome-ai-agent-skills",
+    "name": "awesome-ai-agent-skills",
+    "description": "103 ready-to-use AI agent skills for Claude Code, OpenAI Codex, Gemini CLI, Cursor, GitHub Copilot, Windsurf, and other Agent Skills-compatible tools. Complete SKILL.md workflows—not a link directory.",
+    "url": "https://github.com/seb1n/awesome-ai-agent-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agent-skills",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-11-21"
+  },
+  {
+    "id": "nikola-wd-vibe-agentic-coding-llm-council-skill",
+    "name": "vibe-agentic-coding-llm-council-skill",
+    "description": "Make your AI coding agent argue with itself before writing code. A model-agnostic SKILL.md for engineering decisions.",
+    "url": "https://github.com/nikola-wd/vibe-agentic-coding-llm-council-skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-coding"
+    ],
+    "updatedAt": "2026-10-14"
+  },
+  {
+    "id": "carlosjunioor-skillzs",
+    "name": "skillZs",
+    "description": "Open Agent Skills hub and directory for discovering, comparing, creating, and safely installing SKILL.md workflows.",
+    "url": "https://github.com/CarlosJunioor/skillZs",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "agent-skills-directory",
+      "agent-skills-hub"
+    ],
+    "updatedAt": "2026-07-15"
+  },
+  {
+    "id": "ddzyx-qiuxiaoce-football-data",
+    "name": "qiuxiaoce-football-data",
+    "description": "球小策官方开源足球数据集与 AI Agent Skill。每日自动化更新五大联赛与欧冠赛前量化数据与赛后比分比对，支持创作者 API 快速调用。",
+    "url": "https://github.com/ddzyx/qiuxiaoce-football-data",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "ai-prediction",
+      "champions-league"
+    ],
+    "updatedAt": "2026-11-20"
+  },
+  {
+    "id": "tseringyuu-anyviz",
+    "name": "anyviz",
+    "description": "面向 AI 时代的数据可视化规范与工作流库 — specification & workflow library for AI-era data visualization",
+    "url": "https://github.com/TseringYuu/anyviz",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai",
+      "ai-agent",
+      "charts"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "id": "antoniocardenas-generate-nanobanana",
+    "name": "generate-nanobanana",
+    "description": "Claude Code skill for AI image & video generation with Google Gemini — Nano Banana 2 Lite, Nano Banana Pro, Gemini Omni Flash. Cost gates before paid runs, real reference images, a prompt log beside every file.",
+    "url": "https://github.com/AntonioCardenas/generate-nanobanana",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "agent-skills",
+      "agent-skils"
+    ],
+    "updatedAt": "2026-11-03"
+  },
+  {
+    "id": "vincentchuwaichow-vanguard-frontier-agentic",
+    "name": "vanguard-frontier-agentic",
+    "description": "Curated marketplace of AI skills, agents, and rules for cloud, zero-trust, and compliance-aware engineering - works with Claude Code, Codex, Cursor, Copilot, and more.",
+    "url": "https://github.com/VincentChuWaiChow/vanguard-frontier-agentic",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents-framework",
+      "asia-cloud-provider"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "id": "adamanz-grok-bot-skill",
+    "name": "grok-bot-skill",
+    "description": "Cursor / Agent Skill to chat with Grok Bot teammates and create new Grok Bots from the CLI",
+    "url": "https://github.com/adamanz/grok-bot-skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "agent-skills",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-11-07"
+  },
+  {
+    "id": "supermanadam007-countly-cz-ai-skill",
+    "name": "countly-cz-ai-skill",
+    "description": "AI agent skill: all Czech financial calculators from countly.cz — HPP, OSVČ, mortgage, retirement, BMI. Works with Cursor, Claude, ChatGPT and any AI agent.",
+    "url": "https://github.com/SupermanAdam007/countly-cz-ai-skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-agent",
+      "calculator",
+      "chatgpt"
+    ],
+    "updatedAt": "2026-11-06"
+  },
+  {
+    "id": "alexander-danilenko-cortex-claude-code-plugins",
+    "name": "cortex-claude-code-plugins",
+    "description": "Opinionated AI Coding Skills for AI coding agents",
+    "url": "https://github.com/alexander-danilenko/cortex-claude-code-plugins",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-skill",
+      "ai-skills",
+      "claude-code"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "id": "0xfnzero-solana-bot-dev-skills",
+    "name": "solana-bot-dev-skills",
+    "description": "Agent skills for Codex, Claude Code, Cursor, and other coding agents building Solana bots with FnZero streamer, parser, trading, and safekey SDKs.",
+    "url": "https://github.com/0xfnzero/solana-bot-dev-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "0xfnzero",
+      "ai-skills",
+      "claude-code"
+    ],
+    "updatedAt": "2026-10-22"
+  },
+  {
+    "id": "rollinggo-ai-rollinggo-hotel-skill-global",
+    "name": "rollinggo-hotel-skill-global",
+    "description": "Global 2 million hotels Booking + Price Monitoring + Alert skill. Official skill by RollingGo. Covering 200+ countries and regions. Supporting credit card, full order tracking, and 24/7 customer support.",
+    "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-global",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "agent-tools",
+      "ai-tools"
+    ],
+    "updatedAt": "2026-10-24"
+  },
+  {
+    "id": "rollinggo-ai-rollinggo-hotel-skill-cn",
+    "name": "rollinggo-hotel-skill-cn",
+    "description": "全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。",
+    "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "agent-toolkit",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-11-04"
+  },
+  {
+    "id": "marconasi-ai-skills",
+    "name": "AI-Skills",
+    "description": "A curated collection of  150+ specialized AI Skills for software development, frontend, backend, automation, UI/UX, SEO, and DevOps. Each skill encapsulates a focused capability: generating code, templates, scripts, and production-ready workflows.",
+    "url": "https://github.com/MarcoNasi/AI-Skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "ai-skills",
+      "claude-code",
+      "claude-skills"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "id": "isarman-scientific-fa-translation-skill",
+    "name": "scientific-fa-translation-skill",
+    "description": "Cursor skill: academic English → scientific Persian. Print-ready RTL PDFs (XeLaTeX). Linux/macOS.",
+    "url": "https://github.com/isArman/scientific-fa-translation-skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "academic",
+      "cursor",
+      "cursor-skill"
+    ],
+    "updatedAt": "2026-11-20"
+  },
+  {
+    "id": "zerolu-ultimate-ai-media-generator-skill",
+    "name": "Ultimate-AI-Media-Generator-Skill",
+    "description": "Open-source ai image generator skill and ai video generator skill for Codex, Claude Code, OpenClaw, Cursor, and more. Powered by   CyberBara API with Nano Banana, Sora 2, Seedance, and Kling support. No need to master prompt, this skill optimize your prompt for all kinds of creations like slides, anime and much more.",
+    "url": "https://github.com/ZeroLu/Ultimate-AI-Media-Generator-Skill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "claude-code-skill",
+      "codex-skill",
+      "cursor-skill"
+    ],
+    "updatedAt": "2026-11-22"
+  },
+  {
+    "id": "opacedigitalagency-ai-ui-ux-motion-engine",
+    "name": "ai-ui-ux-motion-engine",
+    "description": "AI website design, UI/UX, motion graphics and 3D web Agent Skill for Codex, Claude Code, Cursor, Copilot, Antigravity, Gemini, Windsurf and more.",
+    "url": "https://github.com/OpaceDigitalAgency/ai-ui-ux-motion-engine",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "antigravity-skills",
+      "claude-code-skill"
+    ],
+    "updatedAt": "2026-11-12"
+  },
+  {
+    "id": "ppdbxdawj-ai-skills",
+    "name": "ai-skills",
+    "description": "Agent skills collection | Agent 技能合集",
+    "url": "https://github.com/ppdbxdawj/ai-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "ai-art",
+      "ai-image-generation"
+    ],
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "mrfacecheck-chatgpt-pro-consult",
+    "name": "chatgpt-pro-consult",
+    "description": "Agent skill (SKILL.md): consult ChatGPT Pro through your signed-in browser — submit, wait out deep thinking, harvest the complete Markdown losslessly. Works with Claude Code / Devin / Codex / OpenCode + browse or Playwright-class drivers.",
+    "url": "https://github.com/mrfacecheck/chatgpt-pro-consult",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skill",
+      "ai-agent",
+      "browser-automation"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "cardene777-agent-shared",
+    "name": "agent-shared",
+    "description": "Places the skills, rules, and hooks you keep in one folder into Claude Code, Codex, and every agent that reads SKILL.md",
+    "url": "https://github.com/cardene777/agent-shared",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "claude-code"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "taricatarica-instagram-edits-agent-skills",
+    "name": "instagram-edits-agent-skills",
+    "description": "The complete agent skill set for Instagram Edits for Mac. SKILL.md skills for Claude Code, Codex and Cursor that edit Instagram Reels with AI through the Edits MCP automation server: Cut Silences, auto captions, hooks, zooms, music, color, variants, 4K export. Unofficial, open source.",
+    "url": "https://github.com/TaricaTarica/instagram-edits-agent-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-video-editing",
+      "ai-video-editor"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "sjlee42-myskill",
+    "name": "myskill",
+    "description": "Claude Code skills (Agent Skills / SKILL.md) by sjlee42 · Korean-first · install via /plugin marketplace add sjlee42/myskill or npx skills add · write-with-me: interview-based application writing with multi-judge review",
+    "url": "https://github.com/sjlee42/myskill",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "claude-code",
+      "claude-code-marketplace"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "microsoft-skillopt",
+    "name": "SkillOpt",
+    "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+    "url": "https://github.com/microsoft/SkillOpt",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "self-evolving-agents"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "terry2010-awesome-skill-market",
+    "name": "awesome-skill-market",
+    "description": "Local-first skill manager: merge conflicting agent skills into one arbitrated SKILL.md, plus skill audit and skill security (injection checks, capability stripping, version pinning) for Claude Code, Codex, OpenCode, Pi, Devin. Anti-AI-slop design ruleset inside.",
+    "url": "https://github.com/terry2010/awesome-skill-market",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent",
+      "agent-skills",
+      "ai-slop"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "ephasme-agent-skills",
+    "name": "agent-skills",
+    "description": "Hand-written agent skills, laid out for the Vercel `skills` CLI (skills/<category>/<skill>/SKILL.md).",
+    "url": "https://github.com/Ephasme/agent-skills",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-11-12"
+  },
+  {
+    "id": "maximusmaximus-poa-agent-kit",
+    "name": "poa-agent-kit",
+    "description": "Open-source Proof of Agent (minepoa.com) operator toolkit: zero-leak CLI, shingle-collision preflight, prompt-injection grader auditor, and multi-harness SKILL.md pack",
+    "url": "https://github.com/maximusmaximus/poa-agent-kit",
+    "tags": [
+      "GitHub",
+      "Skill"
+    ],
+    "updatedAt": "2026-11-12"
+  },
+  {
+    "id": "dialling-skillhub",
+    "name": "skillhub",
+    "description": "浏览、搜索、安装、启动 AI 智能体技能的一站式桌面应用。147 个来源 / 11,354 个技能，Steam 风格界面，中英双语，支持 Codex、Claude Code、Cursor 等 80 种智能体。Browse, search, install and launch SKILL.md agent skills — 11k+ skills from 147 sources, Steam-style UI.",
+    "url": "https://github.com/dialling/skillhub",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agent-tools",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-11-21"
+  },
+  {
+    "id": "arnaud-zg-skills",
+    "name": "skills",
+    "description": "Agent Skills for Claude Code, Codex, Cursor, Copilot CLI and any SKILL.md agent: linted, tested, versioned.",
+    "url": "https://github.com/arnaud-zg/skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-skills",
+      "ai-agents",
+      "claude"
+    ],
+    "updatedAt": "2026-11-11"
+  },
+  {
+    "id": "mkfeuhrer-skill-audit",
+    "name": "skill-audit",
+    "description": "Static security scanner for AI agent instruction files — SKILL.md, CLAUDE.md, AGENTS.md, .cursorrules, MCP configs. Zero runtime dependencies. Audits skills before your agent reads them.",
+    "url": "https://github.com/mkfeuhrer/skill-audit",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agent-security",
+      "agent-skills",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-11-08"
+  },
+  {
+    "id": "cygnixlabs-cmd-cygnix-seo-skills",
+    "name": "cygnix-seo-skills",
+    "description": "Free SEO, GEO & AEO agent skills (SKILL.md) for Claude Code, Codex & Cursor: keyword clustering, search intent, cannibalization, content decay, llms.txt check, AI visibility score.",
+    "url": "https://github.com/cygnixlabs-cmd/cygnix-seo-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "aeo",
+      "agent-skills",
+      "claude-code-skill"
+    ],
+    "updatedAt": "2026-11-11"
+  },
+  {
+    "id": "harikrishnan94-agent-skills",
+    "name": "agent-skills",
+    "description": "Portable SKILL.md capability packs and hooks for AI coding agents — Claude Code, Codex, Cursor, and Copilot.",
+    "url": "https://github.com/harikrishnan94/agent-skills",
+    "tags": [
+      "GitHub",
+      "Skill",
+      "agentic-workflow",
+      "spec"
+    ],
+    "updatedAt": "2026-11-10"
+  }
+]

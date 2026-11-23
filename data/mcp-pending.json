@@ -1,1 +1,618 @@
-[]
+[
+  {
+    "id": "colmugx-mcp-mbt",
+    "name": "mcp.mbt",
+    "description": "Type-safe MCP server implementation in MoonBit with dual transport support (STDIO/HTTP)",
+    "url": "https://github.com/colmugx/mcp.mbt",
+    "tags": [
+      "GitHub",
+      "mcp",
+      "modelcontextprotocol",
+      "moonbit",
+      "type-safe"
+    ],
+    "updatedAt": "2026-11-12"
+  },
+  {
+    "id": "lttxzmj-chinese-law-mcp",
+    "name": "chinese-law-mcp",
+    "description": "中国法律法规 MCP 服务器：AI 助手逐条查询 1500+ 部现行法律、司法解释与行政法规 | MCP server for Chinese statutes: 1500+ laws in force, article-level, no API key",
+    "url": "https://github.com/lttxzmj/chinese-law-mcp",
+    "tags": [
+      "GitHub",
+      "ai",
+      "china",
+      "chinese",
+      "chinese-law"
+    ],
+    "updatedAt": "2026-11-17"
+  },
+  {
+    "id": "snyk-agent-scan",
+    "name": "agent-scan",
+    "description": "Security scanner for AI agents, MCP servers and agent skills.",
+    "url": "https://github.com/snyk/agent-scan",
+    "tags": [
+      "GitHub",
+      "agent",
+      "ai",
+      "mcp",
+      "modelcontextprotocol"
+    ],
+    "updatedAt": "2026-11-22"
+  },
+  {
+    "id": "nitrocloudofficial-nitrostack",
+    "name": "nitrostack",
+    "description": "The full-stack TypeScript framework to build, test, and deploy production-ready MCP servers and AI-native apps.",
+    "url": "https://github.com/nitrocloudofficial/nitrostack",
+    "tags": [
+      "GitHub",
+      "agentic-ai",
+      "ai",
+      "chatgpt",
+      "chatgpt-apps"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "sylviangth-awesome-remote-mcp-servers",
+    "name": "awesome-remote-mcp-servers",
+    "description": "A curated list of Hosted & Managed Model Context Protocol (MCP) Servers accessible via a simple URL endpoint.",
+    "url": "https://github.com/sylviangth/awesome-remote-mcp-servers",
+    "tags": [
+      "GitHub",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "awesome-lists"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "mcpjam-inspector",
+    "name": "inspector",
+    "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+    "url": "https://github.com/MCPJam/inspector",
+    "tags": [
+      "GitHub",
+      "anthropic",
+      "chatgpt",
+      "cicd",
+      "debugger"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "highflame-ai-ramparts",
+    "name": "ramparts",
+    "description": "MCP & SKILL scanner that scans any mcp server or skills for indirect attack vectors and security or configuration vulnerabilities. Aligned with OWASP SKILL Top 10 and OWASP MCP Top 10 threats & vulnerabilities. ",
+    "url": "https://github.com/highflame-ai/ramparts",
+    "tags": [
+      "GitHub",
+      "agent",
+      "ai",
+      "llm",
+      "mcp"
+    ],
+    "updatedAt": "2026-11-02"
+  },
+  {
+    "id": "modelcontextprotocol-csharp-sdk",
+    "name": "csharp-sdk",
+    "description": "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.",
+    "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+    "tags": [
+      "GitHub",
+      "csharp",
+      "dotnet",
+      "mcp",
+      "mcp-client"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "tableau-tableau-mcp",
+    "name": "tableau-mcp",
+    "description": "Tableau's official MCP Server. Helping agents see and understand data.",
+    "url": "https://github.com/tableau/tableau-mcp",
+    "tags": [
+      "GitHub",
+      "mcp",
+      "mcp-server",
+      "modelcontextprotocol",
+      "tableau"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "opensolon-solon-ai",
+    "name": "solon-ai",
+    "description": "Java AI application development framework (supports LLM-tool,skill; RAG; MCP; Agent-ReAct,Team-Agent). Compatible with java8 ~ java26. It can also be embedded in SpringBoot, jFinal, Vert.x, Quarkus, and other frameworks.",
+    "url": "https://github.com/opensolon/solon-ai",
+    "tags": [
+      "GitHub",
+      "ai",
+      "chat",
+      "deepseek",
+      "embedding"
+    ],
+    "updatedAt": "2026-11-12"
+  },
+  {
+    "id": "dmontgomery40-bambu-printer-mcp",
+    "name": "bambu-printer-mcp",
+    "description": "MCP server for Bambu Lab 3D printers — STL manipulation, BambuStudio  or FULU/orca slicing, Blender MCP integration, and direct printer control",
+    "url": "https://github.com/DMontgomery40/bambu-printer-mcp",
+    "tags": [
+      "GitHub",
+      "3d-printing",
+      "3js",
+      "3mf",
+      "bambu-cli"
+    ],
+    "updatedAt": "2026-11-22"
+  },
+  {
+    "id": "tbxark-mcp-proxy",
+    "name": "mcp-proxy",
+    "description": "An MCP proxy server that aggregates and serves multiple MCP resource servers through a single HTTP server.",
+    "url": "https://github.com/tbxark/mcp-proxy",
+    "tags": [
+      "GitHub",
+      "claude",
+      "mcp",
+      "mcp-client",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-11-22"
+  },
+  {
+    "id": "lm203688-healthlens",
+    "name": "healthlens",
+    "description": "HealthLens — 中西医融合健康管理平台 + MCP server (healthlens-mcp). HTTP endpoint https://healthlens.cc/api/v1/mcp",
+    "url": "https://github.com/lm203688/healthlens",
+    "tags": [
+      "GitHub",
+      "fastapi",
+      "health",
+      "healthcare-ai",
+      "mcp"
+    ],
+    "updatedAt": "2026-11-12"
+  },
+  {
+    "id": "falldownthesystem-converse",
+    "name": "converse",
+    "description": "Converse MCP Server",
+    "url": "https://github.com/FallDownTheSystem/converse",
+    "tags": [
+      "GitHub",
+      "ai",
+      "llm",
+      "mcp",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-11-09"
+  },
+  {
+    "id": "ak10082247-max-agentfuel402",
+    "name": "agentfuel402",
+    "description": "AgentFuel402 — B2B, E-Commerce & Developer Consumable Data Factory (Apify PPE + Dual-Chain x402 + MCP)",
+    "url": "https://github.com/ak10082247-max/agentfuel402",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "apify-actor",
+      "data-extraction",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-11-22"
+  },
+  {
+    "id": "avisangle-dba-agent",
+    "name": "dba-agent",
+    "description": "Open-source assistant pack for Oracle DBAs: tested read-only health, performance, storage, backup and security checks plus skills for AI models, running on Oracle's SQLcl MCP server.",
+    "url": "https://github.com/avisangle/dba-agent",
+    "tags": [
+      "GitHub",
+      "ai-agent",
+      "awr",
+      "claude",
+      "claude-code"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "shawn1905-zero-proxy-mcp-suite",
+    "name": "zero-proxy-mcp-suite",
+    "description": "Zero-proxy Remote MCP Servers (Streamable HTTP) for Google News, ESPN Sports, 5-Board Remote Jobs, Polymarket/Kalshi & Substack + free n8n automation templates.",
+    "url": "https://github.com/shawn1905/zero-proxy-mcp-suite",
+    "tags": [
+      "GitHub",
+      "apify",
+      "claude",
+      "cursor",
+      "espn"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "yawlabs-tailscale-mcp",
+    "name": "tailscale-mcp",
+    "description": "Tailscale MCP server for managing your tailnet from AI assistants",
+    "url": "https://github.com/YawLabs/tailscale-mcp",
+    "tags": [
+      "GitHub",
+      "acl",
+      "ai",
+      "ai-agents",
+      "audit-log"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "mcpg-dev-mcpg-plugin-backend-clickhouse",
+    "name": "mcpg-plugin-backend-clickhouse",
+    "description": "ClickHouse columnar-OLAP backend binding plugin for mcpg. Runs an operator-fixed analytical SQL statement against a ClickHouse server (OSS, Cloud, Altinity) over its HTTP interface and returns rows as JSON.",
+    "url": "https://github.com/mcpg-dev/mcpg-plugin-backend-clickhouse",
+    "tags": [
+      "GitHub",
+      "backend",
+      "mcp",
+      "mcpg",
+      "mcpg-plugin"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "gabhack-apify-cloud-mcp-suite",
+    "name": "apify-cloud-mcp-suite",
+    "description": "3 Lightweight Apify Store Pay-Per-Event MCP Servers for AI Agents (Cloud Cert Blueprints, Multi-Cloud FinOps Estimator & KDP/Udemy SEO Auditor)",
+    "url": "https://github.com/gabhack/apify-cloud-mcp-suite",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "apify",
+      "aws-certification",
+      "cursor"
+    ],
+    "updatedAt": "2026-11-21"
+  },
+  {
+    "id": "adudley78-credenzo",
+    "name": "credenzo",
+    "description": "Security scanner for MCP (Model Context Protocol) server configurations. Detects prompt injection, credential exposure, supply chain risks, and more.",
+    "url": "https://github.com/adudley78/credenzo",
+    "tags": [
+      "GitHub",
+      "ai-security",
+      "claude",
+      "cli",
+      "cursor"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "storra-eng-storra-mcp",
+    "name": "storra-mcp",
+    "description": "Open-source MCP servers for Storra: search real charity stories a creator could tell or a brand could fund. Read-only, no sign-in.",
+    "url": "https://github.com/storra-eng/storra-mcp",
+    "tags": [
+      "GitHub",
+      "charity",
+      "cloudflare-workers",
+      "mcp",
+      "mcp-server"
+    ],
+    "updatedAt": "2026-11-22"
+  },
+  {
+    "id": "extensiondev-mcp",
+    "name": "mcp",
+    "description": "MCP server that lets AI agents build, run, debug, test and ship browser extensions for Chrome, Firefox, Edge and Safari. Local tools run Extension.js on your machine with no account. Platform tools take the build to extension.dev for preview links, release channels and store submission.",
+    "url": "https://github.com/extensiondev/mcp",
+    "tags": [
+      "GitHub",
+      "agents",
+      "ai-agent",
+      "browser-extension",
+      "chrome-extension"
+    ],
+    "updatedAt": "2026-11-16"
+  },
+  {
+    "id": "gardenbaum-mcp-server-paperless",
+    "name": "mcp-server-paperless",
+    "description": "MCP server for paperless-ngx 3.x: let Claude and other AI assistants find, read, file, upload and organise your documents by name, with confirmation before anything final. One uvx command.",
+    "url": "https://github.com/gardenbaum/mcp-server-paperless",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-desktop"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "mcpg-dev-mcpg-cloud",
+    "name": "mcpg-cloud",
+    "description": "mcpg.cloud tenant CLI: login, publish configs as managed gateways, inspect instances/operations/logs, manage config versions and custom domains. Links cli-core only — not the control-plane server.",
+    "url": "https://github.com/mcpg-dev/mcpg-cloud",
+    "tags": [
+      "GitHub",
+      "cli",
+      "mcp",
+      "mcpg",
+      "model-context-protocol"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "guangxiangdebizi-papers-mcp",
+    "name": "papers-mcp",
+    "description": "A Model Context Protocol (MCP) server for academic paper search and analysis. This tool helps researchers quickly find, analyze, and extract information from academic papers using open data sources.",
+    "url": "https://github.com/guangxiangdebizi/papers-mcp",
+    "tags": [
+      "GitHub",
+      "arxiv",
+      "arxiv-papers",
+      "llm",
+      "mcp"
+    ],
+    "updatedAt": "2026-08-14"
+  },
+  {
+    "id": "astranl-astranl-mcp",
+    "name": "astranl-mcp",
+    "description": "No-key MCP server for AI agents. Lead tool: check a Dutch contractor before paying an advance, check_counterparty_nl with the KvK number returns contractor_report facts with sources: registration age, legal form, SBI fit, BAG address, insolvency, VIES, sanctions, public awards. Facts, not a verdict. Also Dutch construction facts and coordination.",
+    "url": "https://github.com/ASTRANL/astranl-mcp",
+    "tags": [
+      "GitHub",
+      "a2a",
+      "agent-economy",
+      "ai-agents",
+      "construction"
+    ],
+    "updatedAt": "2026-11-20"
+  },
+  {
+    "id": "techssss-tiktok-scraper-api-tiktok-shop-no-watermark",
+    "name": "tiktok-scraper-api-tiktok-shop-no-watermark",
+    "description": "TikTok & TikTok Shop MCP Server for Google Antigravity, OpenAI Codex, Claude Desktop & Cursor + 35-Endpoint Global No-Watermark Video API (22+ Countries)",
+    "url": "https://github.com/Techssss/tiktok-scraper-api-tiktok-shop-no-watermark",
+    "tags": [
+      "GitHub",
+      "antigravity",
+      "capcut",
+      "claude-desktop",
+      "codex"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "soflutionltd-flintrail",
+    "name": "flintrail",
+    "description": "The fastest browser MCP server for AI agents: drive a real Chrome live, record a task once, replay it in milliseconds without an LLM, or replay the site's own API calls.",
+    "url": "https://github.com/Soflutionltd/flintrail",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "browser-automation",
+      "chrome",
+      "claude"
+    ],
+    "updatedAt": "2026-10-29"
+  },
+  {
+    "id": "vusiif-rgc-cli",
+    "name": "rgc-cli",
+    "description": "⚡ Fast, lightweight, cross-platform screen capture CLI & MCP server written purely in Rust (Windows, macOS, Linux). Features WebP, DPI-awareness, direct clipboard & structured JSON.",
+    "url": "https://github.com/vusiif/rgc-cli",
+    "tags": [
+      "GitHub",
+      "cli",
+      "cross-platform",
+      "linux",
+      "macos"
+    ],
+    "updatedAt": "2026-11-21"
+  },
+  {
+    "id": "hproxy-com-free-proxy-list",
+    "name": "free-proxy-list",
+    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.",
+    "url": "https://github.com/hproxy-com/free-proxy-list",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "anonymous-proxy",
+      "free-proxies",
+      "free-proxy"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "n8n-io-n8n",
+    "name": "n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "url": "https://github.com/n8n-io/n8n",
+    "tags": [
+      "GitHub",
+      "ai",
+      "apis",
+      "automation",
+      "cli"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "clickhouse-loom",
+    "name": "loom",
+    "description": "Shared long-term memory, document search and a code index for AI agents, linked to your code. Memories point at the files and symbols they're about and surface when an agent edits them. MCP server, Claude Code and Codex plugins, SDKs. Self-hosted on ClickHouse.",
+    "url": "https://github.com/ClickHouse/loom",
+    "tags": [
+      "GitHub",
+      "agent-memory",
+      "ai-agents",
+      "ai-memory",
+      "claude-code"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "upstash-context7",
+    "name": "context7",
+    "description": "Context7 Platform -- Up-to-date docs for AI agents",
+    "url": "https://github.com/upstash/context7",
+    "tags": [
+      "GitHub",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "vibe-coding"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "777genius-agent-teams-ai",
+    "name": "agent-teams-ai",
+    "description": "You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/OpenCode/Cursor/Grok/GitHub/Kiro/Z.AI/Xiaomi/MiniMax/Kimi(300+ models, 200+ LLM providers, free models no auth) Build your AI company with multiple teams",
+    "url": "https://github.com/777genius/agent-teams-ai",
+    "tags": [
+      "GitHub",
+      "agent-orchestration",
+      "agent-teams",
+      "agent-to-agent",
+      "ai-agents"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "pipeshub-ai-pipeshub-ai",
+    "name": "pipeshub-ai",
+    "description": "The open-source context layer for AI agents and enterprise AI search. Permission-aware search and cited answers across 30+ sources, including Slack, Drive, Jira, GitHub and Microsoft 365, for people and agents through MCP, SDKs and built-in agents. Self-hosted or Cloud.",
+    "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+    "tags": [
+      "GitHub",
+      "agentic-rag",
+      "ai-agents",
+      "claude-code",
+      "context-engineering"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "proofofstock-proof-of-stock",
+    "name": "proof-of-stock",
+    "description": "Checks if a tokenized-stock contract is on the issuer's own registry, with the issuer price and the on-chain gap.",
+    "url": "https://github.com/proofofstock/proof-of-stock",
+    "tags": [
+      "GitHub",
+      "ai-agents",
+      "base",
+      "coinbase",
+      "mcp"
+    ],
+    "updatedAt": "2026-11-14"
+  },
+  {
+    "id": "siddhant-k-code-agent-trace",
+    "name": "agent-trace",
+    "description": "Local evidence and replay for coding agents: replay what happened, see what the trace could not prove, and attach safe evidence to review. Claude Code, Codex, Copilot CLI, Gemini CLI, Cursor, MCP.",
+    "url": "https://github.com/Siddhant-K-code/agent-trace",
+    "tags": [
+      "GitHub",
+      "agent-observability",
+      "agent-skills",
+      "agent-trace",
+      "agent-traces"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "id": "open-metadata-openmetadata",
+    "name": "OpenMetadata",
+    "description": "The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and business semantics for humans, AI assistants, and agents.",
+    "url": "https://github.com/open-metadata/OpenMetadata",
+    "tags": [
+      "GitHub",
+      "context",
+      "context-layer",
+      "data-catalog",
+      "data-collaboration"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "el4cteo-fast-anything",
+    "name": "fast-anything",
+    "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+    "url": "https://github.com/EL4CTEO/fast-anything",
+    "tags": [
+      "GitHub",
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "godwit-email-godwit",
+    "name": "godwit",
+    "description": "Open-source, AI-native desktop email client for macOS, Windows and Linux. Your mail stays yours: data is masked locally before any model sees it.",
+    "url": "https://github.com/godwit-email/godwit",
+    "tags": [
+      "GitHub",
+      "agent-skills",
+      "ai",
+      "ai-assistant",
+      "desktop-app"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "activepieces-activepieces",
+    "name": "activepieces",
+    "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+    "url": "https://github.com/activepieces/activepieces",
+    "tags": [
+      "GitHub",
+      "ai-agent",
+      "ai-agent-tools",
+      "ai-agents",
+      "ai-agents-framework"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "koala73-worldmonitor",
+    "name": "worldmonitor",
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "url": "https://github.com/koala73/worldmonitor",
+    "tags": [
+      "GitHub",
+      "agent",
+      "ai",
+      "dashboard",
+      "gemini-cli-extension"
+    ],
+    "updatedAt": "2026-11-23"
+  },
+  {
+    "id": "robhunter-agentdeals",
+    "name": "agentdeals",
+    "description": "Catalogue of developer infrastructure free tiers, startup credits and pricing, with side-by-side vendor comparisons for hosting, databases and AI APIs. Website, JSON API and MCP server, read by coding agents choosing a stack.",
+    "url": "https://github.com/robhunter/agentdeals",
+    "tags": [
+      "GitHub",
+      "cloud-pricing",
+      "developer-deals",
+      "developer-tools",
+      "free-tier"
+    ],
+    "updatedAt": "2026-11-12"
+  }
+]
